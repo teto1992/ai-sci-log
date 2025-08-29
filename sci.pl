@@ -5,6 +5,8 @@ Units:
   - Hours in h, ResourceShare ∈ [0,1]
 */
 
+:- consult('data/ci.pl').
+
 % ---------- Knowledge Base ---------------------------------------------
 lifetimeHours(35040).  % ≈ 4 years
 reservedHours(17520).  % ≈ 2 years
@@ -12,20 +14,58 @@ resourceShare(1.0).    % it is computed as ResourcesReserved / TotalResources, e
 carbonIntensity(0.120).  % UK average grid intensity in kgCO2e/kWh
 totalEmbodied(2000).   % e.g. embodied emissions of a server in kgCO2e
 
+% ---------- Simulation over time ---------------------------------------
+
+
+
+sim2(T, Region, SCIList) :-
+    T > 0, sim(T, Region, Tmp),
+    reverse(Tmp, SCIList),
+    printCSV(SCIList).
+
+printCSV(SCIList) :-
+    open('sci_output.csv', write, Stream),
+    format(Stream, "Time,SCI~n", []),
+    writeCSVData(Stream, SCIList),
+    close(Stream).
+
+writeCSVData(_, []).
+writeCSVData(Stream, [(T,SCI)|Rest]) :-
+    format(Stream, "~w,~2f~n", [T, SCI]),
+    writeCSVData(Stream, Rest).
+
+sim(T, Region, [(T,SCI)|Rest]) :-
+    T > 0,
+    sciScore(T, Region, SCI),
+    NewT is T - 1,
+    sim(NewT, Region, Rest).
+sim(0, _, []). 
+
+
+
+% carbonIntensity(1, 0, north_scotland).
+
+% totEnergy(Timeslot, Region, EnergyConsumed)
+totEnergy(_,_,1000).
+functionalUnits(100000).
+
 % ---------- Core Rules -------------------------------------------------
 
 %% sciScore(+E, +R, -SCI)
 %  compute SCI = (O + M) / R
-sciScore(E, R, SCI) :-
-    operationalCarbon(E, O),
-    embodiedCarbon(M),
-    R > 0, SCI is (O + M) / R.
+sciScore(TimeSlot, Region, SCI) :-
+    operationalCarbon(TimeSlot, Region, O),
+    embodiedCarbon(M), 
+    functionalUnits(R), R > 0,
+    SCI is (O + M) / R.
 
 %% operationalCarbon(+E, -O)
 %  O = E * I (overall operational emissions)
-operationalCarbon(E, O) :-
-    carbonIntensity(I), I >= 0,
+operationalCarbon(TimeSlot, Region, O) :-
+    totEnergy(TimeSlot,Region,E),
+    carbonIntensity(TimeSlot, I, Region), I >= 0,
     O is E * I.
+    
 
 %% embodiedCarbon(-M)
 %  M = TotalEmbodied * (ReservedHours / LifetimeHours) * ResourceShare
