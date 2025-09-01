@@ -1,0 +1,1359 @@
+﻿Datetime (UTC),Timeslot,Region,Value
+2025-08-27T00:00Z,1, North Scotland,0
+2025-08-27T00:30Z,2, North Scotland,0
+2025-08-27T01:00Z,3, North Scotland,1
+2025-08-27T01:30Z,4, North Scotland,0
+2025-08-27T02:00Z,5, North Scotland,0
+2025-08-27T02:30Z,6, North Scotland,2
+2025-08-27T03:00Z,7, North Scotland,0
+2025-08-27T03:30Z,8, North Scotland,0
+2025-08-27T04:00Z,9, North Scotland,0
+2025-08-27T04:30Z,10, North Scotland,0
+2025-08-27T05:00Z,11, North Scotland,0
+2025-08-27T05:30Z,12, North Scotland,0
+2025-08-27T06:00Z,13, North Scotland,0
+2025-08-27T06:30Z,14, North Scotland,0
+2025-08-27T07:00Z,15, North Scotland,0
+2025-08-27T07:30Z,16, North Scotland,0
+2025-08-27T08:00Z,17, North Scotland,0
+2025-08-27T08:30Z,18, North Scotland,0
+2025-08-27T09:00Z,19, North Scotland,0
+2025-08-27T09:30Z,20, North Scotland,0
+2025-08-27T10:00Z,21, North Scotland,0
+2025-08-27T10:30Z,22, North Scotland,0
+2025-08-27T11:00Z,23, North Scotland,0
+2025-08-27T11:30Z,24, North Scotland,0
+2025-08-27T12:00Z,25, North Scotland,0
+2025-08-27T12:30Z,26, North Scotland,0
+2025-08-27T13:00Z,27, North Scotland,0
+2025-08-27T13:30Z,28, North Scotland,0
+2025-08-27T14:00Z,29, North Scotland,0
+2025-08-27T14:30Z,30, North Scotland,0
+2025-08-27T15:00Z,31, North Scotland,0
+2025-08-27T15:30Z,32, North Scotland,0
+2025-08-27T16:00Z,33, North Scotland,0
+2025-08-27T16:30Z,34, North Scotland,0
+2025-08-27T17:00Z,35, North Scotland,0
+2025-08-27T17:30Z,36, North Scotland,0
+2025-08-27T18:00Z,37, North Scotland,0
+2025-08-27T18:30Z,38, North Scotland,0
+2025-08-27T19:00Z,39, North Scotland,0
+2025-08-27T19:30Z,40, North Scotland,0
+2025-08-27T20:00Z,41, North Scotland,0
+2025-08-27T20:30Z,42, North Scotland,0
+2025-08-27T21:00Z,43, North Scotland,0
+2025-08-27T21:30Z,44, North Scotland,0
+2025-08-27T22:00Z,45, North Scotland,0
+2025-08-27T22:30Z,46, North Scotland,0
+2025-08-27T23:00Z,47, North Scotland,0
+2025-08-27T23:30Z,48, North Scotland,0
+2025-08-28T00:00Z,49, North Scotland,0
+2025-08-28T00:30Z,50, North Scotland,0
+2025-08-28T01:00Z,51, North Scotland,0
+2025-08-28T01:30Z,52, North Scotland,0
+2025-08-28T02:00Z,53, North Scotland,0
+2025-08-28T02:30Z,54, North Scotland,0
+2025-08-28T03:00Z,55, North Scotland,0
+2025-08-28T03:30Z,56, North Scotland,0
+2025-08-28T04:00Z,57, North Scotland,0
+2025-08-28T04:30Z,58, North Scotland,0
+2025-08-28T05:00Z,59, North Scotland,0
+2025-08-28T05:30Z,60, North Scotland,0
+2025-08-28T06:00Z,61, North Scotland,0
+2025-08-28T06:30Z,62, North Scotland,0
+2025-08-28T07:00Z,63, North Scotland,0
+2025-08-28T07:30Z,64, North Scotland,0
+2025-08-28T08:00Z,65, North Scotland,0
+2025-08-28T08:30Z,66, North Scotland,0
+2025-08-28T09:00Z,67, North Scotland,0
+2025-08-28T09:30Z,68, North Scotland,0
+2025-08-28T10:00Z,69, North Scotland,0
+2025-08-28T10:30Z,70, North Scotland,0
+2025-08-28T11:00Z,71, North Scotland,0
+2025-08-28T11:30Z,72, North Scotland,0
+2025-08-28T12:00Z,73, North Scotland,0
+2025-08-28T12:30Z,74, North Scotland,0
+2025-08-28T13:00Z,75, North Scotland,0
+2025-08-28T13:30Z,76, North Scotland,0
+2025-08-28T14:00Z,77, North Scotland,0
+2025-08-28T14:30Z,78, North Scotland,0
+2025-08-28T15:00Z,79, North Scotland,0
+2025-08-28T15:30Z,80, North Scotland,0
+2025-08-28T16:00Z,81, North Scotland,0
+2025-08-28T16:30Z,82, North Scotland,0
+2025-08-28T17:00Z,83, North Scotland,0
+2025-08-28T17:30Z,84, North Scotland,0
+2025-08-28T18:00Z,85, North Scotland,0
+2025-08-28T18:30Z,86, North Scotland,0
+2025-08-28T19:00Z,87, North Scotland,0
+2025-08-28T19:30Z,88, North Scotland,0
+2025-08-28T20:00Z,89, North Scotland,0
+2025-08-28T20:30Z,90, North Scotland,0
+2025-08-28T21:00Z,91, North Scotland,0
+2025-08-28T21:30Z,92, North Scotland,0
+2025-08-28T22:00Z,93, North Scotland,0
+2025-08-28T22:30Z,94, North Scotland,0
+2025-08-28T23:00Z,95, North Scotland,0
+2025-08-28T23:30Z,96, North Scotland,0
+2025-08-29T00:00Z,97, North Scotland,0
+2025-08-27T00:00Z,1,South Scotland,16
+2025-08-27T00:30Z,2,South Scotland,22
+2025-08-27T01:00Z,3,South Scotland,26
+2025-08-27T01:30Z,4,South Scotland,22
+2025-08-27T02:00Z,5,South Scotland,19
+2025-08-27T02:30Z,6,South Scotland,23
+2025-08-27T03:00Z,7,South Scotland,20
+2025-08-27T03:30Z,8,South Scotland,14
+2025-08-27T04:00Z,9,South Scotland,10
+2025-08-27T04:30Z,10,South Scotland,8
+2025-08-27T05:00Z,11,South Scotland,8
+2025-08-27T05:30Z,12,South Scotland,7
+2025-08-27T06:00Z,13,South Scotland,6
+2025-08-27T06:30Z,14,South Scotland,6
+2025-08-27T07:00Z,15,South Scotland,7
+2025-08-27T07:30Z,16,South Scotland,9
+2025-08-27T08:00Z,17,South Scotland,6
+2025-08-27T08:30Z,18,South Scotland,5
+2025-08-27T09:00Z,19,South Scotland,5
+2025-08-27T09:30Z,20,South Scotland,5
+2025-08-27T10:00Z,21,South Scotland,4
+2025-08-27T10:30Z,22,South Scotland,4
+2025-08-27T11:00Z,23,South Scotland,4
+2025-08-27T11:30Z,24,South Scotland,4
+2025-08-27T12:00Z,25,South Scotland,4
+2025-08-27T12:30Z,26,South Scotland,5
+2025-08-27T13:00Z,27,South Scotland,5
+2025-08-27T13:30Z,28,South Scotland,4
+2025-08-27T14:00Z,29,South Scotland,5
+2025-08-27T14:30Z,30,South Scotland,6
+2025-08-27T15:00Z,31,South Scotland,6
+2025-08-27T15:30Z,32,South Scotland,5
+2025-08-27T16:00Z,33,South Scotland,5
+2025-08-27T16:30Z,34,South Scotland,4
+2025-08-27T17:00Z,35,South Scotland,4
+2025-08-27T17:30Z,36,South Scotland,4
+2025-08-27T18:00Z,37,South Scotland,5
+2025-08-27T18:30Z,38,South Scotland,6
+2025-08-27T19:00Z,39,South Scotland,7
+2025-08-27T19:30Z,40,South Scotland,7
+2025-08-27T20:00Z,41,South Scotland,9
+2025-08-27T20:30Z,42,South Scotland,11
+2025-08-27T21:00Z,43,South Scotland,10
+2025-08-27T21:30Z,44,South Scotland,10
+2025-08-27T22:00Z,45,South Scotland,11
+2025-08-27T22:30Z,46,South Scotland,9
+2025-08-27T23:00Z,47,South Scotland,9
+2025-08-27T23:30Z,48,South Scotland,9
+2025-08-28T00:00Z,49,South Scotland,4
+2025-08-28T00:30Z,50,South Scotland,5
+2025-08-28T01:00Z,51,South Scotland,5
+2025-08-28T01:30Z,52,South Scotland,5
+2025-08-28T02:00Z,53,South Scotland,6
+2025-08-28T02:30Z,54,South Scotland,6
+2025-08-28T03:00Z,55,South Scotland,7
+2025-08-28T03:30Z,56,South Scotland,7
+2025-08-28T04:00Z,57,South Scotland,7
+2025-08-28T04:30Z,58,South Scotland,7
+2025-08-28T05:00Z,59,South Scotland,6
+2025-08-28T05:30Z,60,South Scotland,4
+2025-08-28T06:00Z,61,South Scotland,4
+2025-08-28T06:30Z,62,South Scotland,4
+2025-08-28T07:00Z,63,South Scotland,3
+2025-08-28T07:30Z,64,South Scotland,3
+2025-08-28T08:00Z,65,South Scotland,3
+2025-08-28T08:30Z,66,South Scotland,2
+2025-08-28T09:00Z,67,South Scotland,2
+2025-08-28T09:30Z,68,South Scotland,2
+2025-08-28T10:00Z,69,South Scotland,2
+2025-08-28T10:30Z,70,South Scotland,2
+2025-08-28T11:00Z,71,South Scotland,2
+2025-08-28T11:30Z,72,South Scotland,2
+2025-08-28T12:00Z,73,South Scotland,2
+2025-08-28T12:30Z,74,South Scotland,2
+2025-08-28T13:00Z,75,South Scotland,2
+2025-08-28T13:30Z,76,South Scotland,2
+2025-08-28T14:00Z,77,South Scotland,2
+2025-08-28T14:30Z,78,South Scotland,2
+2025-08-28T15:00Z,79,South Scotland,2
+2025-08-28T15:30Z,80,South Scotland,2
+2025-08-28T16:00Z,81,South Scotland,1
+2025-08-28T16:30Z,82,South Scotland,2
+2025-08-28T17:00Z,83,South Scotland,2
+2025-08-28T17:30Z,84,South Scotland,2
+2025-08-28T18:00Z,85,South Scotland,2
+2025-08-28T18:30Z,86,South Scotland,2
+2025-08-28T19:00Z,87,South Scotland,2
+2025-08-28T19:30Z,88,South Scotland,2
+2025-08-28T20:00Z,89,South Scotland,2
+2025-08-28T20:30Z,90,South Scotland,2
+2025-08-28T21:00Z,91,South Scotland,2
+2025-08-28T21:30Z,92,South Scotland,2
+2025-08-28T22:00Z,93,South Scotland,2
+2025-08-28T22:30Z,94,South Scotland,2
+2025-08-28T23:00Z,95,South Scotland,2
+2025-08-28T23:30Z,96,South Scotland,2
+2025-08-29T00:00Z,97,South Scotland,2
+2025-08-27T00:00Z,1, North West England,41
+2025-08-27T00:30Z,2, North West England,44
+2025-08-27T01:00Z,3, North West England,48
+2025-08-27T01:30Z,4, North West England,47
+2025-08-27T02:00Z,5, North West England,54
+2025-08-27T02:30Z,6, North West England,62
+2025-08-27T03:00Z,7, North West England,63
+2025-08-27T03:30Z,8, North West England,54
+2025-08-27T04:00Z,9, North West England,52
+2025-08-27T04:30Z,10, North West England,46
+2025-08-27T05:00Z,11, North West England,40
+2025-08-27T05:30Z,12, North West England,31
+2025-08-27T06:00Z,13, North West England,23
+2025-08-27T06:30Z,14, North West England,24
+2025-08-27T07:00Z,15, North West England,41
+2025-08-27T07:30Z,16, North West England,42
+2025-08-27T08:00Z,17, North West England,33
+2025-08-27T08:30Z,18, North West England,31
+2025-08-27T09:00Z,19, North West England,26
+2025-08-27T09:30Z,20, North West England,20
+2025-08-27T10:00Z,21, North West England,17
+2025-08-27T10:30Z,22, North West England,15
+2025-08-27T11:00Z,23, North West England,16
+2025-08-27T11:30Z,24, North West England,12
+2025-08-27T12:00Z,25, North West England,13
+2025-08-27T12:30Z,26, North West England,14
+2025-08-27T13:00Z,27, North West England,12
+2025-08-27T13:30Z,28, North West England,9
+2025-08-27T14:00Z,29, North West England,11
+2025-08-27T14:30Z,30, North West England,18
+2025-08-27T15:00Z,31, North West England,23
+2025-08-27T15:30Z,32, North West England,29
+2025-08-27T16:00Z,33, North West England,33
+2025-08-27T16:30Z,34, North West England,34
+2025-08-27T17:00Z,35, North West England,32
+2025-08-27T17:30Z,36, North West England,31
+2025-08-27T18:00Z,37, North West England,27
+2025-08-27T18:30Z,38, North West England,29
+2025-08-27T19:00Z,39, North West England,28
+2025-08-27T19:30Z,40, North West England,26
+2025-08-27T20:00Z,41, North West England,22
+2025-08-27T20:30Z,42, North West England,27
+2025-08-27T21:00Z,43, North West England,30
+2025-08-27T21:30Z,44, North West England,33
+2025-08-27T22:00Z,45, North West England,21
+2025-08-27T22:30Z,46, North West England,15
+2025-08-27T23:00Z,47, North West England,16
+2025-08-27T23:30Z,48, North West England,18
+2025-08-28T00:00Z,49, North West England,22
+2025-08-28T00:30Z,50, North West England,35
+2025-08-28T01:00Z,51, North West England,26
+2025-08-28T01:30Z,52, North West England,28
+2025-08-28T02:00Z,53, North West England,32
+2025-08-28T02:30Z,54, North West England,31
+2025-08-28T03:00Z,55, North West England,30
+2025-08-28T03:30Z,56, North West England,26
+2025-08-28T04:00Z,57, North West England,24
+2025-08-28T04:30Z,58, North West England,23
+2025-08-28T05:00Z,59, North West England,30
+2025-08-28T05:30Z,60, North West England,26
+2025-08-28T06:00Z,61, North West England,24
+2025-08-28T06:30Z,62, North West England,27
+2025-08-28T07:00Z,63, North West England,24
+2025-08-28T07:30Z,64, North West England,25
+2025-08-28T08:00Z,65, North West England,30
+2025-08-28T08:30Z,66, North West England,33
+2025-08-28T09:00Z,67, North West England,34
+2025-08-28T09:30Z,68, North West England,37
+2025-08-28T10:00Z,69, North West England,28
+2025-08-28T10:30Z,70, North West England,21
+2025-08-28T11:00Z,71, North West England,20
+2025-08-28T11:30Z,72, North West England,19
+2025-08-28T12:00Z,73, North West England,12
+2025-08-28T12:30Z,74, North West England,12
+2025-08-28T13:00Z,75, North West England,20
+2025-08-28T13:30Z,76, North West England,22
+2025-08-28T14:00Z,77, North West England,19
+2025-08-28T14:30Z,78, North West England,21
+2025-08-28T15:00Z,79, North West England,26
+2025-08-28T15:30Z,80, North West England,23
+2025-08-28T16:00Z,81, North West England,29
+2025-08-28T16:30Z,82, North West England,29
+2025-08-28T17:00Z,83, North West England,28
+2025-08-28T17:30Z,84, North West England,26
+2025-08-28T18:00Z,85, North West England,25
+2025-08-28T18:30Z,86, North West England,19
+2025-08-28T19:00Z,87, North West England,15
+2025-08-28T19:30Z,88, North West England,15
+2025-08-28T20:00Z,89, North West England,15
+2025-08-28T20:30Z,90, North West England,18
+2025-08-28T21:00Z,91, North West England,22
+2025-08-28T21:30Z,92, North West England,20
+2025-08-28T22:00Z,93, North West England,14
+2025-08-28T22:30Z,94, North West England,14
+2025-08-28T23:00Z,95, North West England,16
+2025-08-28T23:30Z,96, North West England,18
+2025-08-29T00:00Z,97, North West England,23
+2025-08-27T00:00Z,1,  North East England,159
+2025-08-27T00:30Z,2,  North East England,156
+2025-08-27T01:00Z,3,  North East England,151
+2025-08-27T01:30Z,4,  North East England,156
+2025-08-27T02:00Z,5,  North East England,165
+2025-08-27T02:30Z,6,  North East England,164
+2025-08-27T03:00Z,7,  North East England,163
+2025-08-27T03:30Z,8,  North East England,158
+2025-08-27T04:00Z,9,  North East England,158
+2025-08-27T04:30Z,10,  North East England,149
+2025-08-27T05:00Z,11,  North East England,141
+2025-08-27T05:30Z,12,  North East England,136
+2025-08-27T06:00Z,13,  North East England,133
+2025-08-27T06:30Z,14,  North East England,131
+2025-08-27T07:00Z,15,  North East England,143
+2025-08-27T07:30Z,16,  North East England,130
+2025-08-27T08:00Z,17,  North East England,116
+2025-08-27T08:30Z,18,  North East England,106
+2025-08-27T09:00Z,19,  North East England,92
+2025-08-27T09:30Z,20,  North East England,82
+2025-08-27T10:00Z,21,  North East England,73
+2025-08-27T10:30Z,22,  North East England,61
+2025-08-27T11:00Z,23,  North East England,50
+2025-08-27T11:30Z,24,  North East England,48
+2025-08-27T12:00Z,25,  North East England,48
+2025-08-27T12:30Z,26,  North East England,49
+2025-08-27T13:00Z,27,  North East England,48
+2025-08-27T13:30Z,28,  North East England,44
+2025-08-27T14:00Z,29,  North East England,49
+2025-08-27T14:30Z,30,  North East England,55
+2025-08-27T15:00Z,31,  North East England,56
+2025-08-27T15:30Z,32,  North East England,59
+2025-08-27T16:00Z,33,  North East England,69
+2025-08-27T16:30Z,34,  North East England,70
+2025-08-27T17:00Z,35,  North East England,67
+2025-08-27T17:30Z,36,  North East England,70
+2025-08-27T18:00Z,37,  North East England,59
+2025-08-27T18:30Z,38,  North East England,62
+2025-08-27T19:00Z,39,  North East England,63
+2025-08-27T19:30Z,40,  North East England,69
+2025-08-27T20:00Z,41,  North East England,70
+2025-08-27T20:30Z,42,  North East England,81
+2025-08-27T21:00Z,43,  North East England,79
+2025-08-27T21:30Z,44,  North East England,72
+2025-08-27T22:00Z,45,  North East England,68
+2025-08-27T22:30Z,46,  North East England,65
+2025-08-27T23:00Z,47,  North East England,67
+2025-08-27T23:30Z,48,  North East England,63
+2025-08-28T00:00Z,49,  North East England,70
+2025-08-28T00:30Z,50,  North East England,101
+2025-08-28T01:00Z,51,  North East England,82
+2025-08-28T01:30Z,52,  North East England,82
+2025-08-28T02:00Z,53,  North East England,81
+2025-08-28T02:30Z,54,  North East England,88
+2025-08-28T03:00Z,55,  North East England,94
+2025-08-28T03:30Z,56,  North East England,87
+2025-08-28T04:00Z,57,  North East England,75
+2025-08-28T04:30Z,58,  North East England,71
+2025-08-28T05:00Z,59,  North East England,85
+2025-08-28T05:30Z,60,  North East England,79
+2025-08-28T06:00Z,61,  North East England,79
+2025-08-28T06:30Z,62,  North East England,78
+2025-08-28T07:00Z,63,  North East England,70
+2025-08-28T07:30Z,64,  North East England,75
+2025-08-28T08:00Z,65,  North East England,81
+2025-08-28T08:30Z,66,  North East England,79
+2025-08-28T09:00Z,67,  North East England,74
+2025-08-28T09:30Z,68,  North East England,73
+2025-08-28T10:00Z,69,  North East England,56
+2025-08-28T10:30Z,70,  North East England,54
+2025-08-28T11:00Z,71,  North East England,56
+2025-08-28T11:30Z,72,  North East England,51
+2025-08-28T12:00Z,73,  North East England,42
+2025-08-28T12:30Z,74,  North East England,45
+2025-08-28T13:00Z,75,  North East England,57
+2025-08-28T13:30Z,76,  North East England,60
+2025-08-28T14:00Z,77,  North East England,64
+2025-08-28T14:30Z,78,  North East England,65
+2025-08-28T15:00Z,79,  North East England,70
+2025-08-28T15:30Z,80,  North East England,64
+2025-08-28T16:00Z,81,  North East England,57
+2025-08-28T16:30Z,82,  North East England,64
+2025-08-28T17:00Z,83,  North East England,71
+2025-08-28T17:30Z,84,  North East England,72
+2025-08-28T18:00Z,85,  North East England,70
+2025-08-28T18:30Z,86,  North East England,69
+2025-08-28T19:00Z,87,  North East England,67
+2025-08-28T19:30Z,88,  North East England,67
+2025-08-28T20:00Z,89,  North East England,70
+2025-08-28T20:30Z,90,  North East England,72
+2025-08-28T21:00Z,91,  North East England,76
+2025-08-28T21:30Z,92,  North East England,72
+2025-08-28T22:00Z,93,  North East England,59
+2025-08-28T22:30Z,94,  North East England,60
+2025-08-28T23:00Z,95,  North East England,63
+2025-08-28T23:30Z,96,  North East England,65
+2025-08-29T00:00Z,97,  North East England,65
+2025-08-27T00:00Z,1, Yorkshire,215
+2025-08-27T00:30Z,2, Yorkshire,208
+2025-08-27T01:00Z,3, Yorkshire,196
+2025-08-27T01:30Z,4, Yorkshire,204
+2025-08-27T02:00Z,5, Yorkshire,215
+2025-08-27T02:30Z,6, Yorkshire,221
+2025-08-27T03:00Z,7, Yorkshire,216
+2025-08-27T03:30Z,8, Yorkshire,219
+2025-08-27T04:00Z,9, Yorkshire,225
+2025-08-27T04:30Z,10, Yorkshire,222
+2025-08-27T05:00Z,11, Yorkshire,225
+2025-08-27T05:30Z,12, Yorkshire,217
+2025-08-27T06:00Z,13, Yorkshire,208
+2025-08-27T06:30Z,14, Yorkshire,204
+2025-08-27T07:00Z,15, Yorkshire,196
+2025-08-27T07:30Z,16, Yorkshire,181
+2025-08-27T08:00Z,17, Yorkshire,166
+2025-08-27T08:30Z,18, Yorkshire,157
+2025-08-27T09:00Z,19, Yorkshire,147
+2025-08-27T09:30Z,20, Yorkshire,138
+2025-08-27T10:00Z,21, Yorkshire,141
+2025-08-27T10:30Z,22, Yorkshire,131
+2025-08-27T11:00Z,23, Yorkshire,131
+2025-08-27T11:30Z,24, Yorkshire,124
+2025-08-27T12:00Z,25, Yorkshire,128
+2025-08-27T12:30Z,26, Yorkshire,128
+2025-08-27T13:00Z,27, Yorkshire,127
+2025-08-27T13:30Z,28, Yorkshire,116
+2025-08-27T14:00Z,29, Yorkshire,113
+2025-08-27T14:30Z,30, Yorkshire,117
+2025-08-27T15:00Z,31, Yorkshire,119
+2025-08-27T15:30Z,32, Yorkshire,127
+2025-08-27T16:00Z,33, Yorkshire,151
+2025-08-27T16:30Z,34, Yorkshire,159
+2025-08-27T17:00Z,35, Yorkshire,167
+2025-08-27T17:30Z,36, Yorkshire,183
+2025-08-27T18:00Z,37, Yorkshire,194
+2025-08-27T18:30Z,38, Yorkshire,203
+2025-08-27T19:00Z,39, Yorkshire,210
+2025-08-27T19:30Z,40, Yorkshire,202
+2025-08-27T20:00Z,41, Yorkshire,202
+2025-08-27T20:30Z,42, Yorkshire,195
+2025-08-27T21:00Z,43, Yorkshire,182
+2025-08-27T21:30Z,44, Yorkshire,172
+2025-08-27T22:00Z,45, Yorkshire,155
+2025-08-27T22:30Z,46, Yorkshire,173
+2025-08-27T23:00Z,47, Yorkshire,178
+2025-08-27T23:30Z,48, Yorkshire,186
+2025-08-28T00:00Z,49, Yorkshire,186
+2025-08-28T00:30Z,50, Yorkshire,192
+2025-08-28T01:00Z,51, Yorkshire,196
+2025-08-28T01:30Z,52, Yorkshire,193
+2025-08-28T02:00Z,53, Yorkshire,196
+2025-08-28T02:30Z,54, Yorkshire,194
+2025-08-28T03:00Z,55, Yorkshire,195
+2025-08-28T03:30Z,56, Yorkshire,196
+2025-08-28T04:00Z,57, Yorkshire,201
+2025-08-28T04:30Z,58, Yorkshire,209
+2025-08-28T05:00Z,59, Yorkshire,212
+2025-08-28T05:30Z,60, Yorkshire,209
+2025-08-28T06:00Z,61, Yorkshire,208
+2025-08-28T06:30Z,62, Yorkshire,209
+2025-08-28T07:00Z,63, Yorkshire,196
+2025-08-28T07:30Z,64, Yorkshire,190
+2025-08-28T08:00Z,65, Yorkshire,185
+2025-08-28T08:30Z,66, Yorkshire,176
+2025-08-28T09:00Z,67, Yorkshire,169
+2025-08-28T09:30Z,68, Yorkshire,175
+2025-08-28T10:00Z,69, Yorkshire,162
+2025-08-28T10:30Z,70, Yorkshire,154
+2025-08-28T11:00Z,71, Yorkshire,153
+2025-08-28T11:30Z,72, Yorkshire,153
+2025-08-28T12:00Z,73, Yorkshire,148
+2025-08-28T12:30Z,74, Yorkshire,143
+2025-08-28T13:00Z,75, Yorkshire,152
+2025-08-28T13:30Z,76, Yorkshire,158
+2025-08-28T14:00Z,77, Yorkshire,166
+2025-08-28T14:30Z,78, Yorkshire,161
+2025-08-28T15:00Z,79, Yorkshire,167
+2025-08-28T15:30Z,80, Yorkshire,158
+2025-08-28T16:00Z,81, Yorkshire,159
+2025-08-28T16:30Z,82, Yorkshire,152
+2025-08-28T17:00Z,83, Yorkshire,150
+2025-08-28T17:30Z,84, Yorkshire,152
+2025-08-28T18:00Z,85, Yorkshire,149
+2025-08-28T18:30Z,86, Yorkshire,150
+2025-08-28T19:00Z,87, Yorkshire,153
+2025-08-28T19:30Z,88, Yorkshire,160
+2025-08-28T20:00Z,89, Yorkshire,173
+2025-08-28T20:30Z,90, Yorkshire,160
+2025-08-28T21:00Z,91, Yorkshire,154
+2025-08-28T21:30Z,92, Yorkshire,149
+2025-08-28T22:00Z,93, Yorkshire,136
+2025-08-28T22:30Z,94, Yorkshire,122
+2025-08-28T23:00Z,95, Yorkshire,111
+2025-08-28T23:30Z,96, Yorkshire,112
+2025-08-29T00:00Z,97, Yorkshire,102
+2025-08-27T00:00Z,1, North Wales & Merseyside,165
+2025-08-27T00:30Z,2, North Wales & Merseyside,166
+2025-08-27T01:00Z,3, North Wales & Merseyside,155
+2025-08-27T01:30Z,4, North Wales & Merseyside,150
+2025-08-27T02:00Z,5, North Wales & Merseyside,138
+2025-08-27T02:30Z,6, North Wales & Merseyside,139
+2025-08-27T03:00Z,7, North Wales & Merseyside,129
+2025-08-27T03:30Z,8, North Wales & Merseyside,112
+2025-08-27T04:00Z,9, North Wales & Merseyside,122
+2025-08-27T04:30Z,10, North Wales & Merseyside,120
+2025-08-27T05:00Z,11, North Wales & Merseyside,109
+2025-08-27T05:30Z,12, North Wales & Merseyside,100
+2025-08-27T06:00Z,13, North Wales & Merseyside,92
+2025-08-27T06:30Z,14, North Wales & Merseyside,96
+2025-08-27T07:00Z,15, North Wales & Merseyside,84
+2025-08-27T07:30Z,16, North Wales & Merseyside,78
+2025-08-27T08:00Z,17, North Wales & Merseyside,54
+2025-08-27T08:30Z,18, North Wales & Merseyside,50
+2025-08-27T09:00Z,19, North Wales & Merseyside,50
+2025-08-27T09:30Z,20, North Wales & Merseyside,42
+2025-08-27T10:00Z,21, North Wales & Merseyside,41
+2025-08-27T10:30Z,22, North Wales & Merseyside,42
+2025-08-27T11:00Z,23, North Wales & Merseyside,37
+2025-08-27T11:30Z,24, North Wales & Merseyside,49
+2025-08-27T12:00Z,25, North Wales & Merseyside,40
+2025-08-27T12:30Z,26, North Wales & Merseyside,36
+2025-08-27T13:00Z,27, North Wales & Merseyside,42
+2025-08-27T13:30Z,28, North Wales & Merseyside,37
+2025-08-27T14:00Z,29, North Wales & Merseyside,28
+2025-08-27T14:30Z,30, North Wales & Merseyside,38
+2025-08-27T15:00Z,31, North Wales & Merseyside,43
+2025-08-27T15:30Z,32, North Wales & Merseyside,50
+2025-08-27T16:00Z,33, North Wales & Merseyside,85
+2025-08-27T16:30Z,34, North Wales & Merseyside,96
+2025-08-27T17:00Z,35, North Wales & Merseyside,113
+2025-08-27T17:30Z,36, North Wales & Merseyside,117
+2025-08-27T18:00Z,37, North Wales & Merseyside,138
+2025-08-27T18:30Z,38, North Wales & Merseyside,149
+2025-08-27T19:00Z,39, North Wales & Merseyside,154
+2025-08-27T19:30Z,40, North Wales & Merseyside,167
+2025-08-27T20:00Z,41, North Wales & Merseyside,163
+2025-08-27T20:30Z,42, North Wales & Merseyside,158
+2025-08-27T21:00Z,43, North Wales & Merseyside,151
+2025-08-27T21:30Z,44, North Wales & Merseyside,143
+2025-08-27T22:00Z,45, North Wales & Merseyside,116
+2025-08-27T22:30Z,46, North Wales & Merseyside,113
+2025-08-27T23:00Z,47, North Wales & Merseyside,111
+2025-08-27T23:30Z,48, North Wales & Merseyside,96
+2025-08-28T00:00Z,49, North Wales & Merseyside,48
+2025-08-28T00:30Z,50, North Wales & Merseyside,54
+2025-08-28T01:00Z,51, North Wales & Merseyside,56
+2025-08-28T01:30Z,52, North Wales & Merseyside,71
+2025-08-28T02:00Z,53, North Wales & Merseyside,68
+2025-08-28T02:30Z,54, North Wales & Merseyside,65
+2025-08-28T03:00Z,55, North Wales & Merseyside,91
+2025-08-28T03:30Z,56, North Wales & Merseyside,85
+2025-08-28T04:00Z,57, North Wales & Merseyside,94
+2025-08-28T04:30Z,58, North Wales & Merseyside,66
+2025-08-28T05:00Z,59, North Wales & Merseyside,72
+2025-08-28T05:30Z,60, North Wales & Merseyside,73
+2025-08-28T06:00Z,61, North Wales & Merseyside,75
+2025-08-28T06:30Z,62, North Wales & Merseyside,98
+2025-08-28T07:00Z,63, North Wales & Merseyside,90
+2025-08-28T07:30Z,64, North Wales & Merseyside,88
+2025-08-28T08:00Z,65, North Wales & Merseyside,82
+2025-08-28T08:30Z,66, North Wales & Merseyside,82
+2025-08-28T09:00Z,67, North Wales & Merseyside,91
+2025-08-28T09:30Z,68, North Wales & Merseyside,92
+2025-08-28T10:00Z,69, North Wales & Merseyside,87
+2025-08-28T10:30Z,70, North Wales & Merseyside,70
+2025-08-28T11:00Z,71, North Wales & Merseyside,74
+2025-08-28T11:30Z,72, North Wales & Merseyside,62
+2025-08-28T12:00Z,73, North Wales & Merseyside,56
+2025-08-28T12:30Z,74, North Wales & Merseyside,55
+2025-08-28T13:00Z,75, North Wales & Merseyside,70
+2025-08-28T13:30Z,76, North Wales & Merseyside,80
+2025-08-28T14:00Z,77, North Wales & Merseyside,88
+2025-08-28T14:30Z,78, North Wales & Merseyside,101
+2025-08-28T15:00Z,79, North Wales & Merseyside,109
+2025-08-28T15:30Z,80, North Wales & Merseyside,122
+2025-08-28T16:00Z,81, North Wales & Merseyside,120
+2025-08-28T16:30Z,82, North Wales & Merseyside,114
+2025-08-28T17:00Z,83, North Wales & Merseyside,126
+2025-08-28T17:30Z,84, North Wales & Merseyside,120
+2025-08-28T18:00Z,85, North Wales & Merseyside,107
+2025-08-28T18:30Z,86, North Wales & Merseyside,133
+2025-08-28T19:00Z,87, North Wales & Merseyside,136
+2025-08-28T19:30Z,88, North Wales & Merseyside,137
+2025-08-28T20:00Z,89, North Wales & Merseyside,135
+2025-08-28T20:30Z,90, North Wales & Merseyside,132
+2025-08-28T21:00Z,91, North Wales & Merseyside,146
+2025-08-28T21:30Z,92, North Wales & Merseyside,135
+2025-08-28T22:00Z,93, North Wales & Merseyside,105
+2025-08-28T22:30Z,94, North Wales & Merseyside,77
+2025-08-28T23:00Z,95, North Wales & Merseyside,72
+2025-08-28T23:30Z,96, North Wales & Merseyside,75
+2025-08-29T00:00Z,97, North Wales & Merseyside,40
+2025-08-27T00:00Z,1,South Wales ,239
+2025-08-27T00:30Z,2,South Wales ,217
+2025-08-27T01:00Z,3,South Wales ,217
+2025-08-27T01:30Z,4,South Wales ,214
+2025-08-27T02:00Z,5,South Wales ,224
+2025-08-27T02:30Z,6,South Wales ,258
+2025-08-27T03:00Z,7,South Wales ,291
+2025-08-27T03:30Z,8,South Wales ,288
+2025-08-27T04:00Z,9,South Wales ,285
+2025-08-27T04:30Z,10,South Wales ,257
+2025-08-27T05:00Z,11,South Wales ,285
+2025-08-27T05:30Z,12,South Wales ,309
+2025-08-27T06:00Z,13,South Wales ,322
+2025-08-27T06:30Z,14,South Wales ,321
+2025-08-27T07:00Z,15,South Wales ,309
+2025-08-27T07:30Z,16,South Wales ,304
+2025-08-27T08:00Z,17,South Wales ,284
+2025-08-27T08:30Z,18,South Wales ,265
+2025-08-27T09:00Z,19,South Wales ,243
+2025-08-27T09:30Z,20,South Wales ,206
+2025-08-27T10:00Z,21,South Wales ,193
+2025-08-27T10:30Z,22,South Wales ,192
+2025-08-27T11:00Z,23,South Wales ,190
+2025-08-27T11:30Z,24,South Wales ,192
+2025-08-27T12:00Z,25,South Wales ,204
+2025-08-27T12:30Z,26,South Wales ,179
+2025-08-27T13:00Z,27,South Wales ,158
+2025-08-27T13:30Z,28,South Wales ,126
+2025-08-27T14:00Z,29,South Wales ,128
+2025-08-27T14:30Z,30,South Wales ,146
+2025-08-27T15:00Z,31,South Wales ,165
+2025-08-27T15:30Z,32,South Wales ,188
+2025-08-27T16:00Z,33,South Wales ,251
+2025-08-27T16:30Z,34,South Wales ,251
+2025-08-27T17:00Z,35,South Wales ,265
+2025-08-27T17:30Z,36,South Wales ,278
+2025-08-27T18:00Z,37,South Wales ,285
+2025-08-27T18:30Z,38,South Wales ,312
+2025-08-27T19:00Z,39,South Wales ,325
+2025-08-27T19:30Z,40,South Wales ,316
+2025-08-27T20:00Z,41,South Wales ,324
+2025-08-27T20:30Z,42,South Wales ,298
+2025-08-27T21:00Z,43,South Wales ,263
+2025-08-27T21:30Z,44,South Wales ,219
+2025-08-27T22:00Z,45,South Wales ,207
+2025-08-27T22:30Z,46,South Wales ,197
+2025-08-27T23:00Z,47,South Wales ,220
+2025-08-27T23:30Z,48,South Wales ,225
+2025-08-28T00:00Z,49,South Wales ,211
+2025-08-28T00:30Z,50,South Wales ,242
+2025-08-28T01:00Z,51,South Wales ,258
+2025-08-28T01:30Z,52,South Wales ,256
+2025-08-28T02:00Z,53,South Wales ,287
+2025-08-28T02:30Z,54,South Wales ,283
+2025-08-28T03:00Z,55,South Wales ,291
+2025-08-28T03:30Z,56,South Wales ,289
+2025-08-28T04:00Z,57,South Wales ,305
+2025-08-28T04:30Z,58,South Wales ,320
+2025-08-28T05:00Z,59,South Wales ,318
+2025-08-28T05:30Z,60,South Wales ,331
+2025-08-28T06:00Z,61,South Wales ,343
+2025-08-28T06:30Z,62,South Wales ,347
+2025-08-28T07:00Z,63,South Wales ,351
+2025-08-28T07:30Z,64,South Wales ,338
+2025-08-28T08:00Z,65,South Wales ,324
+2025-08-28T08:30Z,66,South Wales ,289
+2025-08-28T09:00Z,67,South Wales ,279
+2025-08-28T09:30Z,68,South Wales ,246
+2025-08-28T10:00Z,69,South Wales ,228
+2025-08-28T10:30Z,70,South Wales ,207
+2025-08-28T11:00Z,71,South Wales ,210
+2025-08-28T11:30Z,72,South Wales ,197
+2025-08-28T12:00Z,73,South Wales ,195
+2025-08-28T12:30Z,74,South Wales ,184
+2025-08-28T13:00Z,75,South Wales ,183
+2025-08-28T13:30Z,76,South Wales ,189
+2025-08-28T14:00Z,77,South Wales ,230
+2025-08-28T14:30Z,78,South Wales ,232
+2025-08-28T15:00Z,79,South Wales ,240
+2025-08-28T15:30Z,80,South Wales ,226
+2025-08-28T16:00Z,81,South Wales ,199
+2025-08-28T16:30Z,82,South Wales ,224
+2025-08-28T17:00Z,83,South Wales ,239
+2025-08-28T17:30Z,84,South Wales ,257
+2025-08-28T18:00Z,85,South Wales ,263
+2025-08-28T18:30Z,86,South Wales ,270
+2025-08-28T19:00Z,87,South Wales ,278
+2025-08-28T19:30Z,88,South Wales ,286
+2025-08-28T20:00Z,89,South Wales ,286
+2025-08-28T20:30Z,90,South Wales ,210
+2025-08-28T21:00Z,91,South Wales ,182
+2025-08-28T21:30Z,92,South Wales ,168
+2025-08-28T22:00Z,93,South Wales ,131
+2025-08-28T22:30Z,94,South Wales ,117
+2025-08-28T23:00Z,95,South Wales ,111
+2025-08-28T23:30Z,96,South Wales ,103
+2025-08-29T00:00Z,97,South Wales ,164
+2025-08-27T00:00Z,1, West Midlands,172
+2025-08-27T00:30Z,2, West Midlands,174
+2025-08-27T01:00Z,3, West Midlands,175
+2025-08-27T01:30Z,4, West Midlands,179
+2025-08-27T02:00Z,5, West Midlands,184
+2025-08-27T02:30Z,6, West Midlands,191
+2025-08-27T03:00Z,7, West Midlands,185
+2025-08-27T03:30Z,8, West Midlands,178
+2025-08-27T04:00Z,9, West Midlands,179
+2025-08-27T04:30Z,10, West Midlands,177
+2025-08-27T05:00Z,11, West Midlands,176
+2025-08-27T05:30Z,12, West Midlands,181
+2025-08-27T06:00Z,13, West Midlands,178
+2025-08-27T06:30Z,14, West Midlands,182
+2025-08-27T07:00Z,15, West Midlands,173
+2025-08-27T07:30Z,16, West Midlands,167
+2025-08-27T08:00Z,17, West Midlands,145
+2025-08-27T08:30Z,18, West Midlands,132
+2025-08-27T09:00Z,19, West Midlands,107
+2025-08-27T09:30Z,20, West Midlands,92
+2025-08-27T10:00Z,21, West Midlands,77
+2025-08-27T10:30Z,22, West Midlands,72
+2025-08-27T11:00Z,23, West Midlands,63
+2025-08-27T11:30Z,24, West Midlands,64
+2025-08-27T12:00Z,25, West Midlands,64
+2025-08-27T12:30Z,26, West Midlands,60
+2025-08-27T13:00Z,27, West Midlands,57
+2025-08-27T13:30Z,28, West Midlands,50
+2025-08-27T14:00Z,29, West Midlands,46
+2025-08-27T14:30Z,30, West Midlands,59
+2025-08-27T15:00Z,31, West Midlands,77
+2025-08-27T15:30Z,32, West Midlands,85
+2025-08-27T16:00Z,33, West Midlands,113
+2025-08-27T16:30Z,34, West Midlands,120
+2025-08-27T17:00Z,35, West Midlands,128
+2025-08-27T17:30Z,36, West Midlands,132
+2025-08-27T18:00Z,37, West Midlands,130
+2025-08-27T18:30Z,38, West Midlands,136
+2025-08-27T19:00Z,39, West Midlands,135
+2025-08-27T19:30Z,40, West Midlands,145
+2025-08-27T20:00Z,41, West Midlands,139
+2025-08-27T20:30Z,42, West Midlands,138
+2025-08-27T21:00Z,43, West Midlands,134
+2025-08-27T21:30Z,44, West Midlands,127
+2025-08-27T22:00Z,45, West Midlands,109
+2025-08-27T22:30Z,46, West Midlands,108
+2025-08-27T23:00Z,47, West Midlands,118
+2025-08-27T23:30Z,48, West Midlands,117
+2025-08-28T00:00Z,49, West Midlands,118
+2025-08-28T00:30Z,50, West Midlands,136
+2025-08-28T01:00Z,51, West Midlands,135
+2025-08-28T01:30Z,52, West Midlands,142
+2025-08-28T02:00Z,53, West Midlands,146
+2025-08-28T02:30Z,54, West Midlands,151
+2025-08-28T03:00Z,55, West Midlands,155
+2025-08-28T03:30Z,56, West Midlands,151
+2025-08-28T04:00Z,57, West Midlands,151
+2025-08-28T04:30Z,58, West Midlands,143
+2025-08-28T05:00Z,59, West Midlands,160
+2025-08-28T05:30Z,60, West Midlands,164
+2025-08-28T06:00Z,61, West Midlands,180
+2025-08-28T06:30Z,62, West Midlands,180
+2025-08-28T07:00Z,63, West Midlands,182
+2025-08-28T07:30Z,64, West Midlands,184
+2025-08-28T08:00Z,65, West Midlands,181
+2025-08-28T08:30Z,66, West Midlands,149
+2025-08-28T09:00Z,67, West Midlands,134
+2025-08-28T09:30Z,68, West Midlands,119
+2025-08-28T10:00Z,69, West Midlands,101
+2025-08-28T10:30Z,70, West Midlands,89
+2025-08-28T11:00Z,71, West Midlands,93
+2025-08-28T11:30Z,72, West Midlands,90
+2025-08-28T12:00Z,73, West Midlands,80
+2025-08-28T12:30Z,74, West Midlands,80
+2025-08-28T13:00Z,75, West Midlands,100
+2025-08-28T13:30Z,76, West Midlands,106
+2025-08-28T14:00Z,77, West Midlands,108
+2025-08-28T14:30Z,78, West Midlands,113
+2025-08-28T15:00Z,79, West Midlands,123
+2025-08-28T15:30Z,80, West Midlands,129
+2025-08-28T16:00Z,81, West Midlands,128
+2025-08-28T16:30Z,82, West Midlands,134
+2025-08-28T17:00Z,83, West Midlands,141
+2025-08-28T17:30Z,84, West Midlands,139
+2025-08-28T18:00Z,85, West Midlands,140
+2025-08-28T18:30Z,86, West Midlands,141
+2025-08-28T19:00Z,87, West Midlands,138
+2025-08-28T19:30Z,88, West Midlands,137
+2025-08-28T20:00Z,89, West Midlands,136
+2025-08-28T20:30Z,90, West Midlands,133
+2025-08-28T21:00Z,91, West Midlands,138
+2025-08-28T21:30Z,92, West Midlands,131
+2025-08-28T22:00Z,93, West Midlands,96
+2025-08-28T22:30Z,94, West Midlands,84
+2025-08-28T23:00Z,95, West Midlands,83
+2025-08-28T23:30Z,96, West Midlands,82
+2025-08-29T00:00Z,97, West Midlands,81
+2025-08-27T00:00Z,1, East Midlands,260
+2025-08-27T00:30Z,2, East Midlands,259
+2025-08-27T01:00Z,3, East Midlands,256
+2025-08-27T01:30Z,4, East Midlands,260
+2025-08-27T02:00Z,5, East Midlands,265
+2025-08-27T02:30Z,6, East Midlands,282
+2025-08-27T03:00Z,7, East Midlands,268
+2025-08-27T03:30Z,8, East Midlands,281
+2025-08-27T04:00Z,9, East Midlands,292
+2025-08-27T04:30Z,10, East Midlands,299
+2025-08-27T05:00Z,11, East Midlands,303
+2025-08-27T05:30Z,12, East Midlands,304
+2025-08-27T06:00Z,13, East Midlands,283
+2025-08-27T06:30Z,14, East Midlands,279
+2025-08-27T07:00Z,15, East Midlands,271
+2025-08-27T07:30Z,16, East Midlands,259
+2025-08-27T08:00Z,17, East Midlands,245
+2025-08-27T08:30Z,18, East Midlands,226
+2025-08-27T09:00Z,19, East Midlands,193
+2025-08-27T09:30Z,20, East Midlands,176
+2025-08-27T10:00Z,21, East Midlands,158
+2025-08-27T10:30Z,22, East Midlands,149
+2025-08-27T11:00Z,23, East Midlands,129
+2025-08-27T11:30Z,24, East Midlands,128
+2025-08-27T12:00Z,25, East Midlands,132
+2025-08-27T12:30Z,26, East Midlands,128
+2025-08-27T13:00Z,27, East Midlands,133
+2025-08-27T13:30Z,28, East Midlands,126
+2025-08-27T14:00Z,29, East Midlands,123
+2025-08-27T14:30Z,30, East Midlands,140
+2025-08-27T15:00Z,31, East Midlands,172
+2025-08-27T15:30Z,32, East Midlands,177
+2025-08-27T16:00Z,33, East Midlands,195
+2025-08-27T16:30Z,34, East Midlands,216
+2025-08-27T17:00Z,35, East Midlands,233
+2025-08-27T17:30Z,36, East Midlands,245
+2025-08-27T18:00Z,37, East Midlands,254
+2025-08-27T18:30Z,38, East Midlands,261
+2025-08-27T19:00Z,39, East Midlands,264
+2025-08-27T19:30Z,40, East Midlands,275
+2025-08-27T20:00Z,41, East Midlands,271
+2025-08-27T20:30Z,42, East Midlands,261
+2025-08-27T21:00Z,43, East Midlands,253
+2025-08-27T21:30Z,44, East Midlands,241
+2025-08-27T22:00Z,45, East Midlands,224
+2025-08-27T22:30Z,46, East Midlands,231
+2025-08-27T23:00Z,47, East Midlands,238
+2025-08-27T23:30Z,48, East Midlands,247
+2025-08-28T00:00Z,49, East Midlands,236
+2025-08-28T00:30Z,50, East Midlands,245
+2025-08-28T01:00Z,51, East Midlands,266
+2025-08-28T01:30Z,52, East Midlands,282
+2025-08-28T02:00Z,53, East Midlands,289
+2025-08-28T02:30Z,54, East Midlands,299
+2025-08-28T03:00Z,55, East Midlands,301
+2025-08-28T03:30Z,56, East Midlands,305
+2025-08-28T04:00Z,57, East Midlands,311
+2025-08-28T04:30Z,58, East Midlands,302
+2025-08-28T05:00Z,59, East Midlands,315
+2025-08-28T05:30Z,60, East Midlands,313
+2025-08-28T06:00Z,61, East Midlands,312
+2025-08-28T06:30Z,62, East Midlands,306
+2025-08-28T07:00Z,63, East Midlands,312
+2025-08-28T07:30Z,64, East Midlands,308
+2025-08-28T08:00Z,65, East Midlands,294
+2025-08-28T08:30Z,66, East Midlands,272
+2025-08-28T09:00Z,67, East Midlands,236
+2025-08-28T09:30Z,68, East Midlands,191
+2025-08-28T10:00Z,69, East Midlands,170
+2025-08-28T10:30Z,70, East Midlands,154
+2025-08-28T11:00Z,71, East Midlands,157
+2025-08-28T11:30Z,72, East Midlands,166
+2025-08-28T12:00Z,73, East Midlands,155
+2025-08-28T12:30Z,74, East Midlands,154
+2025-08-28T13:00Z,75, East Midlands,180
+2025-08-28T13:30Z,76, East Midlands,187
+2025-08-28T14:00Z,77, East Midlands,202
+2025-08-28T14:30Z,78, East Midlands,208
+2025-08-28T15:00Z,79, East Midlands,228
+2025-08-28T15:30Z,80, East Midlands,228
+2025-08-28T16:00Z,81, East Midlands,223
+2025-08-28T16:30Z,82, East Midlands,230
+2025-08-28T17:00Z,83, East Midlands,229
+2025-08-28T17:30Z,84, East Midlands,244
+2025-08-28T18:00Z,85, East Midlands,262
+2025-08-28T18:30Z,86, East Midlands,263
+2025-08-28T19:00Z,87, East Midlands,261
+2025-08-28T19:30Z,88, East Midlands,249
+2025-08-28T20:00Z,89, East Midlands,240
+2025-08-28T20:30Z,90, East Midlands,231
+2025-08-28T21:00Z,91, East Midlands,228
+2025-08-28T21:30Z,92, East Midlands,215
+2025-08-28T22:00Z,93, East Midlands,151
+2025-08-28T22:30Z,94, East Midlands,131
+2025-08-28T23:00Z,95, East Midlands,125
+2025-08-28T23:30Z,96, East Midlands,119
+2025-08-29T00:00Z,97, East Midlands,128
+2025-08-27T00:00Z,1, East England,37
+2025-08-27T00:30Z,2, East England,34
+2025-08-27T01:00Z,3, East England,38
+2025-08-27T01:30Z,4, East England,26
+2025-08-27T02:00Z,5, East England,24
+2025-08-27T02:30Z,6, East England,49
+2025-08-27T03:00Z,7, East England,36
+2025-08-27T03:30Z,8, East England,38
+2025-08-27T04:00Z,9, East England,27
+2025-08-27T04:30Z,10, East England,27
+2025-08-27T05:00Z,11, East England,47
+2025-08-27T05:30Z,12, East England,62
+2025-08-27T06:00Z,13, East England,58
+2025-08-27T06:30Z,14, East England,54
+2025-08-27T07:00Z,15, East England,125
+2025-08-27T07:30Z,16, East England,134
+2025-08-27T08:00Z,17, East England,136
+2025-08-27T08:30Z,18, East England,129
+2025-08-27T09:00Z,19, East England,120
+2025-08-27T09:30Z,20, East England,113
+2025-08-27T10:00Z,21, East England,112
+2025-08-27T10:30Z,22, East England,110
+2025-08-27T11:00Z,23, East England,107
+2025-08-27T11:30Z,24, East England,104
+2025-08-27T12:00Z,25, East England,97
+2025-08-27T12:30Z,26, East England,86
+2025-08-27T13:00Z,27, East England,81
+2025-08-27T13:30Z,28, East England,80
+2025-08-27T14:00Z,29, East England,36
+2025-08-27T14:30Z,30, East England,32
+2025-08-27T15:00Z,31, East England,4
+2025-08-27T15:30Z,32, East England,15
+2025-08-27T16:00Z,33, East England,26
+2025-08-27T16:30Z,34, East England,42
+2025-08-27T17:00Z,35, East England,57
+2025-08-27T17:30Z,36, East England,70
+2025-08-27T18:00Z,37, East England,84
+2025-08-27T18:30Z,38, East England,100
+2025-08-27T19:00Z,39, East England,112
+2025-08-27T19:30Z,40, East England,109
+2025-08-27T20:00Z,41, East England,102
+2025-08-27T20:30Z,42, East England,96
+2025-08-27T21:00Z,43, East England,92
+2025-08-27T21:30Z,44, East England,80
+2025-08-27T22:00Z,45, East England,73
+2025-08-27T22:30Z,46, East England,68
+2025-08-27T23:00Z,47, East England,56
+2025-08-27T23:30Z,48, East England,57
+2025-08-28T00:00Z,49, East England,43
+2025-08-28T00:30Z,50, East England,12
+2025-08-28T01:00Z,51, East England,41
+2025-08-28T01:30Z,52, East England,45
+2025-08-28T02:00Z,53, East England,45
+2025-08-28T02:30Z,54, East England,49
+2025-08-28T03:00Z,55, East England,49
+2025-08-28T03:30Z,56, East England,56
+2025-08-28T04:00Z,57, East England,64
+2025-08-28T04:30Z,58, East England,77
+2025-08-28T05:00Z,59, East England,102
+2025-08-28T05:30Z,60, East England,125
+2025-08-28T06:00Z,61, East England,128
+2025-08-28T06:30Z,62, East England,112
+2025-08-28T07:00Z,63, East England,101
+2025-08-28T07:30Z,64, East England,79
+2025-08-28T08:00Z,65, East England,66
+2025-08-28T08:30Z,66, East England,41
+2025-08-28T09:00Z,67, East England,28
+2025-08-28T09:30Z,68, East England,21
+2025-08-28T10:00Z,69, East England,16
+2025-08-28T10:30Z,70, East England,14
+2025-08-28T11:00Z,71, East England,37
+2025-08-28T11:30Z,72, East England,44
+2025-08-28T12:00Z,73, East England,35
+2025-08-28T12:30Z,74, East England,33
+2025-08-28T13:00Z,75, East England,19
+2025-08-28T13:30Z,76, East England,22
+2025-08-28T14:00Z,77, East England,23
+2025-08-28T14:30Z,78, East England,17
+2025-08-28T15:00Z,79, East England,15
+2025-08-28T15:30Z,80, East England,16
+2025-08-28T16:00Z,81, East England,26
+2025-08-28T16:30Z,82, East England,23
+2025-08-28T17:00Z,83, East England,21
+2025-08-28T17:30Z,84, East England,18
+2025-08-28T18:00Z,85, East England,14
+2025-08-28T18:30Z,86, East England,20
+2025-08-28T19:00Z,87, East England,41
+2025-08-28T19:30Z,88, East England,38
+2025-08-28T20:00Z,89, East England,6
+2025-08-28T20:30Z,90, East England,7
+2025-08-28T21:00Z,91, East England,3
+2025-08-28T21:30Z,92, East England,3
+2025-08-28T22:00Z,93, East England,4
+2025-08-28T22:30Z,94, East England,4
+2025-08-28T23:00Z,95, East England,5
+2025-08-28T23:30Z,96, East England,6
+2025-08-29T00:00Z,97, East England,5
+2025-08-27T00:00Z,1, South West England,356
+2025-08-27T00:30Z,2, South West England,352
+2025-08-27T01:00Z,3, South West England,349
+2025-08-27T01:30Z,4, South West England,348
+2025-08-27T02:00Z,5, South West England,349
+2025-08-27T02:30Z,6, South West England,344
+2025-08-27T03:00Z,7, South West England,344
+2025-08-27T03:30Z,8, South West England,331
+2025-08-27T04:00Z,9, South West England,325
+2025-08-27T04:30Z,10, South West England,318
+2025-08-27T05:00Z,11, South West England,330
+2025-08-27T05:30Z,12, South West England,319
+2025-08-27T06:00Z,13, South West England,289
+2025-08-27T06:30Z,14, South West England,254
+2025-08-27T07:00Z,15, South West England,188
+2025-08-27T07:30Z,16, South West England,181
+2025-08-27T08:00Z,17, South West England,132
+2025-08-27T08:30Z,18, South West England,99
+2025-08-27T09:00Z,19, South West England,77
+2025-08-27T09:30Z,20, South West England,35
+2025-08-27T10:00Z,21, South West England,31
+2025-08-27T10:30Z,22, South West England,37
+2025-08-27T11:00Z,23, South West England,30
+2025-08-27T11:30Z,24, South West England,21
+2025-08-27T12:00Z,25, South West England,15
+2025-08-27T12:30Z,26, South West England,6
+2025-08-27T13:00Z,27, South West England,4
+2025-08-27T13:30Z,28, South West England,7
+2025-08-27T14:00Z,29, South West England,14
+2025-08-27T14:30Z,30, South West England,30
+2025-08-27T15:00Z,31, South West England,54
+2025-08-27T15:30Z,32, South West England,69
+2025-08-27T16:00Z,33, South West England,97
+2025-08-27T16:30Z,34, South West England,152
+2025-08-27T17:00Z,35, South West England,228
+2025-08-27T17:30Z,36, South West England,247
+2025-08-27T18:00Z,37, South West England,280
+2025-08-27T18:30Z,38, South West England,332
+2025-08-27T19:00Z,39, South West England,348
+2025-08-27T19:30Z,40, South West England,361
+2025-08-27T20:00Z,41, South West England,363
+2025-08-27T20:30Z,42, South West England,365
+2025-08-27T21:00Z,43, South West England,372
+2025-08-27T21:30Z,44, South West England,368
+2025-08-27T22:00Z,45, South West England,360
+2025-08-27T22:30Z,46, South West England,363
+2025-08-27T23:00Z,47, South West England,364
+2025-08-27T23:30Z,48, South West England,353
+2025-08-28T00:00Z,49, South West England,355
+2025-08-28T00:30Z,50, South West England,363
+2025-08-28T01:00Z,51, South West England,360
+2025-08-28T01:30Z,52, South West England,348
+2025-08-28T02:00Z,53, South West England,336
+2025-08-28T02:30Z,54, South West England,337
+2025-08-28T03:00Z,55, South West England,340
+2025-08-28T03:30Z,56, South West England,345
+2025-08-28T04:00Z,57, South West England,331
+2025-08-28T04:30Z,58, South West England,342
+2025-08-28T05:00Z,59, South West England,346
+2025-08-28T05:30Z,60, South West England,347
+2025-08-28T06:00Z,61, South West England,326
+2025-08-28T06:30Z,62, South West England,308
+2025-08-28T07:00Z,63, South West England,249
+2025-08-28T07:30Z,64, South West England,217
+2025-08-28T08:00Z,65, South West England,182
+2025-08-28T08:30Z,66, South West England,167
+2025-08-28T09:00Z,67, South West England,144
+2025-08-28T09:30Z,68, South West England,110
+2025-08-28T10:00Z,69, South West England,55
+2025-08-28T10:30Z,70, South West England,44
+2025-08-28T11:00Z,71, South West England,39
+2025-08-28T11:30Z,72, South West England,40
+2025-08-28T12:00Z,73, South West England,33
+2025-08-28T12:30Z,74, South West England,38
+2025-08-28T13:00Z,75, South West England,55
+2025-08-28T13:30Z,76, South West England,57
+2025-08-28T14:00Z,77, South West England,56
+2025-08-28T14:30Z,78, South West England,73
+2025-08-28T15:00Z,79, South West England,83
+2025-08-28T15:30Z,80, South West England,116
+2025-08-28T16:00Z,81, South West England,142
+2025-08-28T16:30Z,82, South West England,165
+2025-08-28T17:00Z,83, South West England,199
+2025-08-28T17:30Z,84, South West England,232
+2025-08-28T18:00Z,85, South West England,262
+2025-08-28T18:30Z,86, South West England,296
+2025-08-28T19:00Z,87, South West England,317
+2025-08-28T19:30Z,88, South West England,326
+2025-08-28T20:00Z,89, South West England,340
+2025-08-28T20:30Z,90, South West England,336
+2025-08-28T21:00Z,91, South West England,302
+2025-08-28T21:30Z,92, South West England,276
+2025-08-28T22:00Z,93, South West England,251
+2025-08-28T22:30Z,94, South West England,212
+2025-08-28T23:00Z,95, South West England,228
+2025-08-28T23:30Z,96, South West England,224
+2025-08-29T00:00Z,97, South West England,192
+2025-08-27T00:00Z,1, South England,176
+2025-08-27T00:30Z,2, South England,177
+2025-08-27T01:00Z,3, South England,183
+2025-08-27T01:30Z,4, South England,186
+2025-08-27T02:00Z,5, South England,186
+2025-08-27T02:30Z,6, South England,174
+2025-08-27T03:00Z,7, South England,182
+2025-08-27T03:30Z,8, South England,166
+2025-08-27T04:00Z,9, South England,164
+2025-08-27T04:30Z,10, South England,172
+2025-08-27T05:00Z,11, South England,197
+2025-08-27T05:30Z,12, South England,213
+2025-08-27T06:00Z,13, South England,210
+2025-08-27T06:30Z,14, South England,200
+2025-08-27T07:00Z,15, South England,155
+2025-08-27T07:30Z,16, South England,146
+2025-08-27T08:00Z,17, South England,135
+2025-08-27T08:30Z,18, South England,119
+2025-08-27T09:00Z,19, South England,98
+2025-08-27T09:30Z,20, South England,86
+2025-08-27T10:00Z,21, South England,80
+2025-08-27T10:30Z,22, South England,77
+2025-08-27T11:00Z,23, South England,79
+2025-08-27T11:30Z,24, South England,81
+2025-08-27T12:00Z,25, South England,73
+2025-08-27T12:30Z,26, South England,65
+2025-08-27T13:00Z,27, South England,55
+2025-08-27T13:30Z,28, South England,54
+2025-08-27T14:00Z,29, South England,55
+2025-08-27T14:30Z,30, South England,59
+2025-08-27T15:00Z,31, South England,88
+2025-08-27T15:30Z,32, South England,116
+2025-08-27T16:00Z,33, South England,159
+2025-08-27T16:30Z,34, South England,196
+2025-08-27T17:00Z,35, South England,211
+2025-08-27T17:30Z,36, South England,223
+2025-08-27T18:00Z,37, South England,228
+2025-08-27T18:30Z,38, South England,245
+2025-08-27T19:00Z,39, South England,259
+2025-08-27T19:30Z,40, South England,258
+2025-08-27T20:00Z,41, South England,265
+2025-08-27T20:30Z,42, South England,268
+2025-08-27T21:00Z,43, South England,266
+2025-08-27T21:30Z,44, South England,252
+2025-08-27T22:00Z,45, South England,217
+2025-08-27T22:30Z,46, South England,215
+2025-08-27T23:00Z,47, South England,201
+2025-08-27T23:30Z,48, South England,196
+2025-08-28T00:00Z,49, South England,230
+2025-08-28T00:30Z,50, South England,228
+2025-08-28T01:00Z,51, South England,219
+2025-08-28T01:30Z,52, South England,206
+2025-08-28T02:00Z,53, South England,203
+2025-08-28T02:30Z,54, South England,201
+2025-08-28T03:00Z,55, South England,201
+2025-08-28T03:30Z,56, South England,200
+2025-08-28T04:00Z,57, South England,216
+2025-08-28T04:30Z,58, South England,222
+2025-08-28T05:00Z,59, South England,226
+2025-08-28T05:30Z,60, South England,231
+2025-08-28T06:00Z,61, South England,229
+2025-08-28T06:30Z,62, South England,219
+2025-08-28T07:00Z,63, South England,205
+2025-08-28T07:30Z,64, South England,184
+2025-08-28T08:00Z,65, South England,167
+2025-08-28T08:30Z,66, South England,156
+2025-08-28T09:00Z,67, South England,149
+2025-08-28T09:30Z,68, South England,152
+2025-08-28T10:00Z,69, South England,128
+2025-08-28T10:30Z,70, South England,126
+2025-08-28T11:00Z,71, South England,132
+2025-08-28T11:30Z,72, South England,126
+2025-08-28T12:00Z,73, South England,118
+2025-08-28T12:30Z,74, South England,119
+2025-08-28T13:00Z,75, South England,134
+2025-08-28T13:30Z,76, South England,138
+2025-08-28T14:00Z,77, South England,121
+2025-08-28T14:30Z,78, South England,113
+2025-08-28T15:00Z,79, South England,103
+2025-08-28T15:30Z,80, South England,139
+2025-08-28T16:00Z,81, South England,148
+2025-08-28T16:30Z,82, South England,155
+2025-08-28T17:00Z,83, South England,160
+2025-08-28T17:30Z,84, South England,163
+2025-08-28T18:00Z,85, South England,166
+2025-08-28T18:30Z,86, South England,168
+2025-08-28T19:00Z,87, South England,180
+2025-08-28T19:30Z,88, South England,187
+2025-08-28T20:00Z,89, South England,186
+2025-08-28T20:30Z,90, South England,173
+2025-08-28T21:00Z,91, South England,172
+2025-08-28T21:30Z,92, South England,166
+2025-08-28T22:00Z,93, South England,138
+2025-08-28T22:30Z,94, South England,131
+2025-08-28T23:00Z,95, South England,131
+2025-08-28T23:30Z,96, South England,128
+2025-08-29T00:00Z,97, South England,118
+2025-08-27T00:00Z,1, London,106
+2025-08-27T00:30Z,2, London,95
+2025-08-27T01:00Z,3, London,96
+2025-08-27T01:30Z,4, London,85
+2025-08-27T02:00Z,5, London,87
+2025-08-27T02:30Z,6, London,96
+2025-08-27T03:00Z,7, London,91
+2025-08-27T03:30Z,8, London,89
+2025-08-27T04:00Z,9, London,84
+2025-08-27T04:30Z,10, London,86
+2025-08-27T05:00Z,11, London,104
+2025-08-27T05:30Z,12, London,111
+2025-08-27T06:00Z,13, London,122
+2025-08-27T06:30Z,14, London,118
+2025-08-27T07:00Z,15, London,117
+2025-08-27T07:30Z,16, London,116
+2025-08-27T08:00Z,17, London,112
+2025-08-27T08:30Z,18, London,110
+2025-08-27T09:00Z,19, London,100
+2025-08-27T09:30Z,20, London,98
+2025-08-27T10:00Z,21, London,94
+2025-08-27T10:30Z,22, London,87
+2025-08-27T11:00Z,23, London,84
+2025-08-27T11:30Z,24, London,87
+2025-08-27T12:00Z,25, London,82
+2025-08-27T12:30Z,26, London,76
+2025-08-27T13:00Z,27, London,77
+2025-08-27T13:30Z,28, London,74
+2025-08-27T14:00Z,29, London,52
+2025-08-27T14:30Z,30, London,52
+2025-08-27T15:00Z,31, London,47
+2025-08-27T15:30Z,32, London,59
+2025-08-27T16:00Z,33, London,72
+2025-08-27T16:30Z,34, London,92
+2025-08-27T17:00Z,35, London,107
+2025-08-27T17:30Z,36, London,121
+2025-08-27T18:00Z,37, London,128
+2025-08-27T18:30Z,38, London,147
+2025-08-27T19:00Z,39, London,157
+2025-08-27T19:30Z,40, London,148
+2025-08-27T20:00Z,41, London,140
+2025-08-27T20:30Z,42, London,134
+2025-08-27T21:00Z,43, London,130
+2025-08-27T21:30Z,44, London,121
+2025-08-27T22:00Z,45, London,115
+2025-08-27T22:30Z,46, London,114
+2025-08-27T23:00Z,47, London,100
+2025-08-27T23:30Z,48, London,103
+2025-08-28T00:00Z,49, London,148
+2025-08-28T00:30Z,50, London,121
+2025-08-28T01:00Z,51, London,132
+2025-08-28T01:30Z,52, London,121
+2025-08-28T02:00Z,53, London,120
+2025-08-28T02:30Z,54, London,119
+2025-08-28T03:00Z,55, London,123
+2025-08-28T03:30Z,56, London,126
+2025-08-28T04:00Z,57, London,133
+2025-08-28T04:30Z,58, London,144
+2025-08-28T05:00Z,59, London,150
+2025-08-28T05:30Z,60, London,153
+2025-08-28T06:00Z,61, London,165
+2025-08-28T06:30Z,62, London,172
+2025-08-28T07:00Z,63, London,159
+2025-08-28T07:30Z,64, London,147
+2025-08-28T08:00Z,65, London,128
+2025-08-28T08:30Z,66, London,112
+2025-08-28T09:00Z,67, London,109
+2025-08-28T09:30Z,68, London,107
+2025-08-28T10:00Z,69, London,92
+2025-08-28T10:30Z,70, London,93
+2025-08-28T11:00Z,71, London,97
+2025-08-28T11:30Z,72, London,102
+2025-08-28T12:00Z,73, London,96
+2025-08-28T12:30Z,74, London,90
+2025-08-28T13:00Z,75, London,101
+2025-08-28T13:30Z,76, London,99
+2025-08-28T14:00Z,77, London,95
+2025-08-28T14:30Z,78, London,101
+2025-08-28T15:00Z,79, London,97
+2025-08-28T15:30Z,80, London,100
+2025-08-28T16:00Z,81, London,95
+2025-08-28T16:30Z,82, London,89
+2025-08-28T17:00Z,83, London,90
+2025-08-28T17:30Z,84, London,93
+2025-08-28T18:00Z,85, London,84
+2025-08-28T18:30Z,86, London,79
+2025-08-28T19:00Z,87, London,82
+2025-08-28T19:30Z,88, London,81
+2025-08-28T20:00Z,89, London,68
+2025-08-28T20:30Z,90, London,63
+2025-08-28T21:00Z,91, London,65
+2025-08-28T21:30Z,92, London,60
+2025-08-28T22:00Z,93, London,56
+2025-08-28T22:30Z,94, London,55
+2025-08-28T23:00Z,95, London,56
+2025-08-28T23:30Z,96, London,65
+2025-08-29T00:00Z,97, London,57
+2025-08-27T00:00Z,1, South East England,123
+2025-08-27T00:30Z,2, South East England,111
+2025-08-27T01:00Z,3, South East England,114
+2025-08-27T01:30Z,4, South East England,104
+2025-08-27T02:00Z,5, South East England,105
+2025-08-27T02:30Z,6, South East England,111
+2025-08-27T03:00Z,7, South East England,110
+2025-08-27T03:30Z,8, South East England,107
+2025-08-27T04:00Z,9, South East England,109
+2025-08-27T04:30Z,10, South East England,113
+2025-08-27T05:00Z,11, South East England,127
+2025-08-27T05:30Z,12, South East England,129
+2025-08-27T06:00Z,13, South East England,140
+2025-08-27T06:30Z,14, South East England,133
+2025-08-27T07:00Z,15, South East England,122
+2025-08-27T07:30Z,16, South East England,115
+2025-08-27T08:00Z,17, South East England,104
+2025-08-27T08:30Z,18, South East England,104
+2025-08-27T09:00Z,19, South East England,98
+2025-08-27T09:30Z,20, South East England,95
+2025-08-27T10:00Z,21, South East England,91
+2025-08-27T10:30Z,22, South East England,82
+2025-08-27T11:00Z,23, South East England,80
+2025-08-27T11:30Z,24, South East England,85
+2025-08-27T12:00Z,25, South East England,79
+2025-08-27T12:30Z,26, South East England,74
+2025-08-27T13:00Z,27, South East England,76
+2025-08-27T13:30Z,28, South East England,70
+2025-08-27T14:00Z,29, South East England,65
+2025-08-27T14:30Z,30, South East England,68
+2025-08-27T15:00Z,31, South East England,86
+2025-08-27T15:30Z,32, South East England,101
+2025-08-27T16:00Z,33, South East England,112
+2025-08-27T16:30Z,34, South East England,125
+2025-08-27T17:00Z,35, South East England,132
+2025-08-27T17:30Z,36, South East England,142
+2025-08-27T18:00Z,37, South East England,143
+2025-08-27T18:30Z,38, South East England,158
+2025-08-27T19:00Z,39, South East England,169
+2025-08-27T19:30Z,40, South East England,156
+2025-08-27T20:00Z,41, South East England,150
+2025-08-27T20:30Z,42, South East England,143
+2025-08-27T21:00Z,43, South East England,146
+2025-08-27T21:30Z,44, South East England,138
+2025-08-27T22:00Z,45, South East England,121
+2025-08-27T22:30Z,46, South East England,122
+2025-08-27T23:00Z,47, South East England,107
+2025-08-27T23:30Z,48, South East England,108
+2025-08-28T00:00Z,49, South East England,163
+2025-08-28T00:30Z,50, South East England,151
+2025-08-28T01:00Z,51, South East England,134
+2025-08-28T01:30Z,52, South East England,127
+2025-08-28T02:00Z,53, South East England,127
+2025-08-28T02:30Z,54, South East England,125
+2025-08-28T03:00Z,55, South East England,130
+2025-08-28T03:30Z,56, South East England,131
+2025-08-28T04:00Z,57, South East England,136
+2025-08-28T04:30Z,58, South East England,145
+2025-08-28T05:00Z,59, South East England,147
+2025-08-28T05:30Z,60, South East England,144
+2025-08-28T06:00Z,61, South East England,159
+2025-08-28T06:30Z,62, South East England,175
+2025-08-28T07:00Z,63, South East England,165
+2025-08-28T07:30Z,64, South East England,161
+2025-08-28T08:00Z,65, South East England,141
+2025-08-28T08:30Z,66, South East England,130
+2025-08-28T09:00Z,67, South East England,128
+2025-08-28T09:30Z,68, South East England,128
+2025-08-28T10:00Z,69, South East England,112
+2025-08-28T10:30Z,70, South East England,112
+2025-08-28T11:00Z,71, South East England,111
+2025-08-28T11:30Z,72, South East England,112
+2025-08-28T12:00Z,73, South East England,106
+2025-08-28T12:30Z,74, South East England,101
+2025-08-28T13:00Z,75, South East England,117
+2025-08-28T13:30Z,76, South East England,115
+2025-08-28T14:00Z,77, South East England,112
+2025-08-28T14:30Z,78, South East England,120
+2025-08-28T15:00Z,79, South East England,120
+2025-08-28T15:30Z,80, South East England,122
+2025-08-28T16:00Z,81, South East England,113
+2025-08-28T16:30Z,82, South East England,105
+2025-08-28T17:00Z,83, South East England,108
+2025-08-28T17:30Z,84, South East England,114
+2025-08-28T18:00Z,85, South East England,108
+2025-08-28T18:30Z,86, South East England,102
+2025-08-28T19:00Z,87, South East England,102
+2025-08-28T19:30Z,88, South East England,103
+2025-08-28T20:00Z,89, South East England,102
+2025-08-28T20:30Z,90, South East England,100
+2025-08-28T21:00Z,91, South East England,105
+2025-08-28T21:30Z,92, South East England,96
+2025-08-28T22:00Z,93, South East England,87
+2025-08-28T22:30Z,94, South East England,84
+2025-08-28T23:00Z,95, South East England,83
+2025-08-28T23:30Z,96, South East England,92
+2025-08-29T00:00Z,97, South East England,84
