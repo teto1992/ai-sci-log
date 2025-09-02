@@ -1,0 +1,17 @@
+.topleftimage {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.backgroundFootprint {
+    background-color: #e6ffe6;
+}
+
+.labels {
+    text-align: left;
+}
+
+.bodyContent {
+    margin-top: 180px;
+}
