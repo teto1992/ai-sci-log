@@ -83,15 +83,7 @@ const SCI = () => {
 
     const handleFileProcessDevice = () => {
         const content = fileReaderDevice.result;
-        // console.log(typeof content);
-        // console.log(content);
 
-        // let inputLines = content.split(/\r?\n/);
-        // console.log(typeof inputLines);
-        // console.log(inputLines);
-
-        // let's avoid save data, for the size of it can be huge
-        // setInputData(inputLines);
         let devicesCurrent = [];
         let inputJson = JSON.parse(content);
         for (let i = 0; i < inputJson["devices"].length; i++) {
@@ -99,7 +91,6 @@ const SCI = () => {
             devicesCurrent.push(currentDevice);
         }
 
-        // console.log(devicesCurrent);
         setDevices(devicesCurrent);
     };
 
@@ -111,15 +102,6 @@ const SCI = () => {
 
     const handleFileProcessTime = () => {
         const content = fileReaderTime.result;
-        // console.log(typeof content);
-        // console.log(content);
-
-        // let inputLines = content.split(/\r?\n/);
-        // console.log(typeof inputLines);
-        // console.log(inputLines);
-
-        // let's avoid save data, for the size of it can be huge
-        // setInputData(inputLines);
 
         let timePointsCurrent = [];
         let carbonIntensitiesCurrent = {};
@@ -134,9 +116,6 @@ const SCI = () => {
             PUEsCurrent[inputJson["data_items"][i]["time"]] = inputJson["data_items"][i]["pue"];
             functionalUnitsCurrent[inputJson["data_items"][i]["time"]] = inputJson["data_items"][i]["functional_units"];
         }
-
-        // console.log(timePointsCurrent);
-        // console.log(carbonIntensitiesCurrent);
 
         setTimePoints(timePointsCurrent);
         setCarbonIntensities(carbonIntensitiesCurrent);
@@ -174,18 +153,18 @@ const SCI = () => {
                         <LineChart chartData={chartData} chartTitle={'Operational Carbon'} chartHeader={'How much carbon have you used?'} />
                     </div>
                     <h2>Always clean your data before uploading!</h2>
-                    <h3>Please upload the txt file in JSON containing device information.</h3>
+                    <h3>Please upload a .json file containing device information.</h3>
                     <input type="file"
                         id="file"
-                        accept=".txt"
+                        accept=".json"
                         onChange={(e) => handleFileSelectDevice(e.target.files[0])}/>
                     <div>
                         <p>--------------------------------------------------------------------------------------------------------------------------</p>
                     </div>
-                    <h3>Please upload the txt file in JSON containing time-related information.</h3>
+                    <h3>Please upload a .json file containing time-related information.</h3>
                     <input type="file"
                            id="file"
-                           accept=".txt"
+                           accept=".json"
                            onChange={(e) => handleFileSelectTime(e.target.files[0])}/>
                 </div>
             </div>
