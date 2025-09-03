@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 TZ = "Europe/London"
-DATA_PATH = "data/simulated_sci_forecasted.csv"  # adjust if needed
+DATA_PATH = "python/data/simulated_sci_forecasted.csv"  # adjust if needed
 
 start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
