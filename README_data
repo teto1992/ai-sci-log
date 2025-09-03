@@ -2,8 +2,10 @@
 # Format of data jason files
 # --------------------------------------------------
 
+
 # Time data
 # --------------------------------------------------
+# location: ai-sci-log/Viz/codeJS/src/data/timedata.json
 
 # Caution: so far, the time intervals we can measure is 30min,
 # because the cabon intensity real time data we use are updated every 30min
@@ -22,9 +24,6 @@
 "functional_units" [int]
 
 
-
-# location: ./ai-sci-log/Viz/codeJS/src/data/timedata.json
-
 # one data set looks like this
 
 {"data_id":"0000000000",   # unique ID of one measurement or experimenet or
@@ -42,3 +41,31 @@
     		    # future: PUE estimate for country/location
     "functional_units":23    # data property
    },
+
+
+
+# Hardware devices
+# --------------------------------------------------
+
+# For now we collect a limited set of parameters that are hardware specific
+
+# units:
+# lifetime: hours [h]  total life time of device estimated
+
+# power_idle: [W] power used when nothing is running on the device
+power_variable: [W] power_max of device - power_idle. the power_max you find in the tec specs of the device provided by the manufacturer.
+This power variable is used to calculate the actual power used during the software run: power_variable P(s) * CPU_usage(s,dt)
+
+# embodied_carbon: [gCO2e]
+
+# example
+
+ "devices":[
+   {"device_id":"0000000000", "location":"London", "lifetime":38900, "power_idle":300, "power_variable":3000, "embodied_carbon":2000000},
+   {"device_id":"0000000001", "location":"New York", "lifetime":6789, "power_idle":400, "power_variable":2900, "embodied_carbon":1800000},
+   {"device_id":"0000000002", "location":"New York", "lifetime":483000, "power_idle":500, "power_variable":1800, "embodied_carbon":2000000}
+ ]
+}
+
+
+
