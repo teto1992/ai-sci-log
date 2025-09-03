@@ -1,0 +1,19 @@
+# --------------------------------------------------
+# Use case:
+# Bioinformatics example of an RNAseq batch job
+# --------------------------------------------------
+
+# please note: for RNAseq experiments we normalize results to 'per Mio reads' -> for a data set with 1^7 reads i.e. datapoints R=10
+
+
+# parameters
+--------------------
+
+experiment_ID: RNAseq_1
+carbon intensity (CI) I: 0.475 [kgCO2e/kWh]
+PUI: 1.67
+hardware usage u: 0.47
+functional units R:  10
+reserved hours: 0.1
+CPU_power_max: 115
+
