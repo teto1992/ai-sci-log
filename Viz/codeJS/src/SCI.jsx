@@ -54,9 +54,6 @@ const SCI = () => {
                     currentO = currentO * carbonIntensities[timePoints[i]][devices[j]["location"]];
                     currentO = currentO * timeInterval;
                     currentO = currentO * PUEs[timePoints[i]];
-                    // console.log(devices[j]["power_variable"]);
-                    // console.log(hardwareUsages[timePoints[i]][devices[j]["device_id"]]);
-                    //console.log(currentO);
 
                     // to calculate M
                     let currentM = devices[j]["embodied_carbon"];
@@ -66,8 +63,7 @@ const SCI = () => {
 
                     target = target + currentO;
                     target = target + currentM;
-                    // console.log(current);
-                    // console.log((devices[j]).location);
+
                 }
                 target = target / functionalUnits[timePoints[i]];
                 // console.log(timePoints[i]);
