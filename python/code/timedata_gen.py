@@ -35,7 +35,7 @@ def daily_factor(ts: str):
 
 def pue_baseline(seed: int = 1234):
     rng = random.Random(seed)
-    return 1.12 + rng.random() * 0.35  # typical DC range
+    return 1.12 + rng.random() * 0.4  # typical DC range
 
 def make_usage_for_devices(ts: str, device_ids: list, ci_signal: float, rng: random.Random):
     base = daily_factor(ts)
@@ -49,6 +49,15 @@ def make_usage_for_devices(ts: str, device_ids: list, ci_signal: float, rng: ran
         u = max(0.03, min(u, 1.0))
         usages[dev] = round(u, 3)
     return usages
+
+def make_pue_for_devices(ts: str, device_ids: list, rng: random.Random):
+    base = pue_baseline()
+    pues = {}
+    # Small per-device pue variation
+    for i, dev in enumerate(device_ids):
+        pue = max(1.15, min(base + rng.gauss(0, 0.03), 1.9))
+        pues[dev] = round(pue, 3)
+    return pues
 
 def generate(
     carbon_path="data/carbonintensitydata.json",
@@ -75,7 +84,7 @@ def generate(
         ci = ci_for_row(per_loc)
         usages = make_usage_for_devices(ts, device_ids, ci, rng)
         # small pue wiggle
-        pue = max(1.05, min(base_pue + rng.gauss(0, 0.03), 1.6))
+        pues = make_pue_for_devices(ts, device_ids, rng)
         # functional units loosely tied to aggregate usage (scaled and noisy)
         fu = int(max(0, rng.gauss(150 + 220 * (sum(usages.values())/len(usages)), 25)))
         out.append({
@@ -84,7 +93,9 @@ def generate(
             "hardware_usages": {
                 ts: usages
             },
-            "pue": round(pue, 3),
+            "pue_values": {
+                ts: pues
+            },
             "functional_units": fu
         })
     with open(out_json_path, "w") as f:
