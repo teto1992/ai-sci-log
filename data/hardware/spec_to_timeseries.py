@@ -1,45 +1,5 @@
 #!/usr/bin/env python3
-"""
-Generate per-type, per-phase time-series CSVs from a compact hardware YAML spec.
 
-Inputs
-------
-1) YAML spec describing hardware groups with id_pattern (see example below)
-2) Carbon intensity CSV to derive the time index (timestamps + cadence)
-
-Outputs
--------
-- For each hardware TYPE (e.g., "gpu", "server") and each PHASE ("training", "deployment"),
-  we write a CSV named:  {type}_{phase}_timeseries.csv
-  with columns:
-    timestamp, unit_id, group, type, location, pue, max_power_w, expected_lifetime_years, embodied_carbon_kg,
-    cpu_usage_percent, reserved_hours, functional_units
-
-Notes
------
-- CPU usage is per-unit: baseline + diurnal + noise; training windows lift it.
-- "reserved_hours" is per-unit, per-interval: interval_hours if unit is reserved else 0.
-- Functional units:
-  - training: we spread 1.0 FU across the job window for participating units
-              (equal shares per timestamp, then split evenly across participating units).
-  - deployment: total requests per TYPE per timestamp sampled via Poisson, then allocated
-                across units proportionally to instantaneous utilization (multinomial).
-
-Usage
------
-python spec_to_timeseries.py \
-  --spec path/to/spec.yaml \
-  --carbon-file path/to/carbon.csv \
-  --out ./out \
-  --seed 42 \
-  --training-jobs 1 \
-  --training-days 5 \
-  --participants-per-type 2 \
-  --deploy-base-req 100 \
-  --deploy-diurnal-amp 0.6
-
-You can omit most flags and rely on defaults.
-"""
 from __future__ import annotations
 
 import argparse
