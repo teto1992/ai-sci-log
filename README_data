@@ -29,9 +29,6 @@
 {"data_id":"0000000000",   # unique ID of one measurement or experimenet or
 			   # setting for running a pice of sortware, etc.
     "time":"2025-09-01::00-00", # time of run
-    "carbon_intensities":{      # CI per country/locaton (will be removed in future
-     "2025-09-01::00-00":{"London":79, "New York":0.83}
-    },
     "hardware_usages":{       # % CPU used per device: device_id:CPU_usage
     			      # device_id referes to device.jason
 			      # CAUTION! set zero if device not used in this setting!
@@ -46,6 +43,7 @@
 
 # Hardware devices
 # --------------------------------------------------
+# location: ai-sci-log/Viz/codeJS/src/data/device.json
 
 # For now we collect a limited set of parameters that are hardware specific
 
@@ -66,6 +64,10 @@ This power variable is used to calculate the actual power used during the softwa
    {"device_id":"0000000002", "location":"New York", "lifetime":483000, "power_idle":500, "power_variable":1800, "embodied_carbon":2000000}
  ]
 }
+
+
+
+
 
 
 
