@@ -1,7 +1,0 @@
-{
- "devices":[
-   {"device_id":"0000000000", "location":"London", "lifetime":38900, "power_idle":300, "power_variable":3000, "embodied_carbon":2000000},
-   {"device_id":"0000000001", "location":"New York", "lifetime":6789, "power_idle":400, "power_variable":2900, "embodied_carbon":1800000},
-   {"device_id":"0000000002", "location":"New York", "lifetime":483000, "power_idle":500, "power_variable":1800, "embodied_carbon":2000000}
- ]
-}
