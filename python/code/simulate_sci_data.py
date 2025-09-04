@@ -92,6 +92,38 @@ def simulate_sci_forecast(df_sci):
 
 
 def simulate_sci_data(path_carbon_intensity, path_devices_details, path_timeseries_data, type_to_simulate):
+    """
+    This function loads raw SCI datasets (carbon intensity, device details, and time series),
+    computes operational and manufacturing contributions, and combines them into the SCI
+    DataFrame. Depending on the `type_to_simulate` argument, it can return past data,
+    future simulations, or both.
+
+    Parameters
+    ----------
+    path_carbon_intensity : str or Path
+        Path to the dataset containing carbon intensity values (e.g., by location and time).
+    path_devices_details : str or Path
+        Path to the dataset with device details (e.g., device_id, embodied carbon, lifetime).
+    path_timeseries_data : str or Path
+        Path to the time series dataset with hardware usage and related metrics.
+    type_to_simulate : {"past", "future", "both"}
+        Determines which simulation output to return:
+        - "past": returns only the SCI DataFrame based on historical data.
+        - "future": returns only the forecasted SCI DataFrame.
+        - any other value (e.g. "both"): returns a tuple with both 
+          `(sci_past, sci_forecast)`.
+
+    Returns
+    -------
+    pandas.DataFrame or tuple of pandas.DataFrame
+        If `type_to_simulate == "past"`:
+            DataFrame with SCI computed from historical data.
+        If `type_to_simulate == "future"`:
+            DataFrame with forecasted SCI values.
+        Otherwise:
+            Tuple containing `(sci_past, sci_forecast)`.
+
+    """
 
     df_carbon_intensity, df_devices, df_time_seriesV2, df_hardware_usage, df_pue = load_sci_raw_data(path_carbon_intensity, 
                                                                                                      path_devices_details, 
