@@ -8,18 +8,19 @@ start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
 # Dates from UI
 start_date = st.date_input(
-    "Pick a start date for your task!",
+    "Pick a start date for your prompting task!",
     value=start_date_default,
     min_value=pd.Timestamp(2026, 1, 1, tz=TZ).date(),
     max_value=pd.Timestamp(2026, 8, 25, tz=TZ).date(),
 )
 
 end_date = st.date_input(
-    "Pick a deadline date for your task!",
+    "Pick a deadline date for your prompting task!",
     value=start_date,
     min_value=start_date,
     max_value=pd.Timestamp(2026, 8, 25, tz=TZ).date(),
 )
+# TODO: Pierre adds the data processing part
 
 # Load CSV and fix timestamp column
 df = pd.read_csv(DATA_PATH)
@@ -50,9 +51,6 @@ st.write("Start date:", start_date)
 st.write("End date:", end_date)
 st.write(f"Rows in range: {len(filtered_df)}")
 
-# Plot: either pass x= or set index
-#st.line_chart(data=filtered_df, x="ts_local", y="SCI")
-# Alternatively:
 st.line_chart(filtered_df.set_index("ts_local")["SCI"], color="#9bc59d")
 
 # ----- Recommendation: best time to prompt within the selected range -----

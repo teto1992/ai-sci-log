@@ -1,0 +1,604 @@
+{
+  "devices": [
+    {
+      "device_id": "0000000000",
+      "location": "East England",
+      "lifetime": 31639,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000001",
+      "location": "East England",
+      "lifetime": 44144,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000002",
+      "location": "East England",
+      "lifetime": 40697,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000003",
+      "location": "East England",
+      "lifetime": 47651,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000004",
+      "location": "East England",
+      "lifetime": 68118,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000005",
+      "location": "East Midlands",
+      "lifetime": 48031,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000006",
+      "location": "East Midlands",
+      "lifetime": 57493,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000007",
+      "location": "East Midlands",
+      "lifetime": 58618,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000008",
+      "location": "East Midlands",
+      "lifetime": 57696,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000009",
+      "location": "East Midlands",
+      "lifetime": 44110,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000010",
+      "location": "GB",
+      "lifetime": 26698,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000011",
+      "location": "GB",
+      "lifetime": 52541,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000012",
+      "location": "GB",
+      "lifetime": 22847,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000013",
+      "location": "GB",
+      "lifetime": 35164,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000014",
+      "location": "GB",
+      "lifetime": 47601,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000015",
+      "location": "London",
+      "lifetime": 24558,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000016",
+      "location": "London",
+      "lifetime": 38965,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000017",
+      "location": "London",
+      "lifetime": 64714,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000018",
+      "location": "London",
+      "lifetime": 40659,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000019",
+      "location": "London",
+      "lifetime": 80994,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000020",
+      "location": "North East England",
+      "lifetime": 24679,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000021",
+      "location": "North East England",
+      "lifetime": 46043,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000022",
+      "location": "North East England",
+      "lifetime": 76943,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000023",
+      "location": "North East England",
+      "lifetime": 44392,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000024",
+      "location": "North East England",
+      "lifetime": 23665,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000025",
+      "location": "North Scotland",
+      "lifetime": 40673,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000026",
+      "location": "North Scotland",
+      "lifetime": 67170,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000027",
+      "location": "North Scotland",
+      "lifetime": 60928,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000028",
+      "location": "North Scotland",
+      "lifetime": 50071,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000029",
+      "location": "North Scotland",
+      "lifetime": 66789,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000030",
+      "location": "North Wales & Merseyside",
+      "lifetime": 58077,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000031",
+      "location": "North Wales & Merseyside",
+      "lifetime": 44065,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000032",
+      "location": "North Wales & Merseyside",
+      "lifetime": 52343,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000033",
+      "location": "North Wales & Merseyside",
+      "lifetime": 27185,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000034",
+      "location": "North Wales & Merseyside",
+      "lifetime": 69086,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000035",
+      "location": "North West England",
+      "lifetime": 65674,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000036",
+      "location": "North West England",
+      "lifetime": 35752,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000037",
+      "location": "North West England",
+      "lifetime": 65190,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000038",
+      "location": "North West England",
+      "lifetime": 37310,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000039",
+      "location": "North West England",
+      "lifetime": 35212,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000040",
+      "location": "South East England",
+      "lifetime": 37261,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000041",
+      "location": "South East England",
+      "lifetime": 36973,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000042",
+      "location": "South East England",
+      "lifetime": 53270,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000043",
+      "location": "South East England",
+      "lifetime": 70348,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000044",
+      "location": "South East England",
+      "lifetime": 69252,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000045",
+      "location": "South England",
+      "lifetime": 37331,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000046",
+      "location": "South England",
+      "lifetime": 50785,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000047",
+      "location": "South England",
+      "lifetime": 35613,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000048",
+      "location": "South England",
+      "lifetime": 24535,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000049",
+      "location": "South England",
+      "lifetime": 28414,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000050",
+      "location": "South Scotland",
+      "lifetime": 64581,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000051",
+      "location": "South Scotland",
+      "lifetime": 84497,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000052",
+      "location": "South Scotland",
+      "lifetime": 61148,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000053",
+      "location": "South Scotland",
+      "lifetime": 58711,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000054",
+      "location": "South Scotland",
+      "lifetime": 27930,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000055",
+      "location": "South Wales",
+      "lifetime": 73555,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000056",
+      "location": "South Wales",
+      "lifetime": 35080,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000057",
+      "location": "South Wales",
+      "lifetime": 24652,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000058",
+      "location": "South Wales",
+      "lifetime": 39643,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000059",
+      "location": "South Wales",
+      "lifetime": 48250,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000060",
+      "location": "South West England",
+      "lifetime": 43671,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000061",
+      "location": "South West England",
+      "lifetime": 57423,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000062",
+      "location": "South West England",
+      "lifetime": 50996,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000063",
+      "location": "South West England",
+      "lifetime": 58249,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000064",
+      "location": "South West England",
+      "lifetime": 46941,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000065",
+      "location": "West Midlands",
+      "lifetime": 61386,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000066",
+      "location": "West Midlands",
+      "lifetime": 42236,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000067",
+      "location": "West Midlands",
+      "lifetime": 32465,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000068",
+      "location": "West Midlands",
+      "lifetime": 42025,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000069",
+      "location": "West Midlands",
+      "lifetime": 64041,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000070",
+      "location": "Yorkshire",
+      "lifetime": 77738,
+      "power_idle": 500,
+      "power_variable": 3000,
+      "embodied_carbon": 2500000
+    },
+    {
+      "device_id": "0000000071",
+      "location": "Yorkshire",
+      "lifetime": 20967,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000072",
+      "location": "Yorkshire",
+      "lifetime": 56634,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    },
+    {
+      "device_id": "0000000073",
+      "location": "Yorkshire",
+      "lifetime": 34008,
+      "power_idle": 120,
+      "power_variable": 400,
+      "embodied_carbon": 1200000
+    },
+    {
+      "device_id": "0000000074",
+      "location": "Yorkshire",
+      "lifetime": 30141,
+      "power_idle": 300,
+      "power_variable": 1500,
+      "embodied_carbon": 1800000
+    }
+  ]
+}
