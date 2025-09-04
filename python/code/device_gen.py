@@ -82,7 +82,7 @@ def generate_timeseries(rows, devices, jitter_seed=123):
 def main(
     carbon_path="data/carbonintensitydata.json",
     devices_out_path="data/devices.json",
-    devices_per_location=2
+    devices_per_location=5
 ):
     rows = load_carbon(carbon_path)
     if not rows:
