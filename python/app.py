@@ -1,8 +1,12 @@
 import streamlit as st
 import pandas as pd
+import code.simulate_sci_data as sci
 
 TZ = "Europe/London"
 DATA_PATH = "python/data/simulated_sci_forecasted.csv"  # adjust if needed
+CARBON_INTENSITY_PATH = "python/data/carbonintensitydata.json"  
+DEVICES_DETAILS_PATH = "python/data/devices_generated.json"  
+TIME_SERIES_DATA_PATH = "python/data/timeseries.json"  
 
 start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
@@ -24,6 +28,7 @@ end_date = st.date_input(
 
 # Load CSV and fix timestamp column
 df = pd.read_csv(DATA_PATH)
+#df = sci.simulate_sci_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH, "future")
 if "datetime" in df.columns:
     ts_col = "datetime"
 elif "timestamp" in df.columns:
