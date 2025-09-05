@@ -4,9 +4,9 @@ import code.simulate_sci_data as sci
 
 TZ = "Europe/London"
 #DATA_PATH = "./data/simulated_sci_forecasted.csv"  # adjust if needed
-CARBON_INTENSITY_PATH = "./data/carbonintensitydata.json"  
-DEVICES_DETAILS_PATH = "./data/devices_generated.json"  
-TIME_SERIES_DATA_PATH = "./data/timeseries.json"  
+CARBON_INTENSITY_PATH = "data/carbonintensitydata.json"  
+DEVICES_DETAILS_PATH = "data/devices_generated.json"  
+TIME_SERIES_DATA_PATH = "data/timeseries.json"  
 
 start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
@@ -24,7 +24,7 @@ end_date = st.date_input(
     min_value=start_date,
     max_value=pd.Timestamp(2026, 8, 25, tz=TZ).date(),
 )
-# TODO: Pierre adds the data processing part
+
 
 # Load CSV and fix timestamp column
 #df = pd.read_csv(DATA_PATH)
