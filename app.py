@@ -134,7 +134,6 @@ else:
 
 st.markdown(
     "#### Notes\n"
-    "- SCI is currently estimated from synthetic lifelike device usage and actual grid carbon intensity from [CarbonIntensityAPI](https://carbonintensity.org.uk).\n"
-    "- Values shown in **g CO₂e per prompt**; times are **UK**.\n"
+    "- SCI is currently estimated from synthetic lifelike device usage and actual UK grid carbon intensity from [CarbonIntensityAPI](https://carbonintensity.org.uk).\n"
     "- This mockup is for research; figures are indicative, not audited."
 )
