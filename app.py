@@ -30,8 +30,11 @@ end_date = st.date_input(
 
 # Load CSV and fix timestamp column
 #df = pd.read_csv(DATA_PATH)
-df = sci.simulate_sci_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH, "future")
+@st.cache_data
+def load_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH):
+    return sci.simulate_sci_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH, "future")
 
+df = load_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH) 
 
 if "datetime" in df.columns:
     ts_col = "datetime"
@@ -96,6 +99,7 @@ else:
 
     st.subheader("Top-3 greenest slots in the selected range")
     topn = filtered_df.nsmallest(3, "SCI")[["ts_local", "SCI"]]
+    print(topn)
     topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [kg/prompt]"})
     st.dataframe(topn.reset_index(drop=True))
 
