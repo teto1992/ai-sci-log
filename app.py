@@ -99,8 +99,8 @@ else:
 
     st.subheader("Top-3 greenest slots in the selected range")
     topn = filtered_df.nsmallest(3, "SCI")[["ts_local", "SCI"]]
-    print(topn)
-    topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [kg/prompt]"})
+    topn["SCI"] = topn["SCI"].round(4) * 1000
+    topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [g/prompt]"})
     st.dataframe(topn.reset_index(drop=True))
 
     if not filtered_df.empty:
