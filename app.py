@@ -18,7 +18,7 @@ st.sidebar.info(
     "The tool was developed during the [TRAIL Summer Workshop 2025](https://trail.ac/en/trail-summer-workshops/the-trail-summer-workshop-2024/submitted-projects-trail-summer-workshop-2025/) as [Project 13](https://trail.ac/en/trail-summer-workshops/the-trail-summer-workshop-2024/submitted-projects-trail-summer-workshop-2025/)"
 )
 
-st.markdown("**What’s SCI?** The *Software Carbon Intensity* estimates the grams of CO₂e per prompt, combining energy use and grid carbon intensity.")
+st.markdown("**What’s SCI?** The *Software Carbon Intensity* estimates the grams of CO₂e per prompt, combining embodied carbon, energy use and grid carbon intensity.")
 st.markdown("**How this works:** Pick your time window → we compute SCI over that period → we suggest the lowest-SCI slot to run your prompt.")
 
 st.markdown("Select a start and end date to explore greener execution windows for your prompt.")
