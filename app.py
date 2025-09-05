@@ -30,7 +30,11 @@ end_date = st.date_input(
 
 # Load CSV and fix timestamp column
 #df = pd.read_csv(DATA_PATH)
-df = sci.simulate_sci_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH, "future")
+
+if "load" not in st.session_state:
+    df = sci.simulate_sci_data(CARBON_INTENSITY_PATH, DEVICES_DETAILS_PATH,  TIME_SERIES_DATA_PATH, "future")
+
+
 if "datetime" in df.columns:
     ts_col = "datetime"
 elif "timestamp" in df.columns:
