@@ -60,9 +60,9 @@ def make_pue_for_devices(ts: str, device_ids: list, rng: random.Random):
     return pues
 
 def generate(
-    carbon_path="data/carbonintensitydata.json",
-    device_path="data/devices_generated.json",
-    out_json_path="data/timeseries.json",
+    carbon_path="../data/carbonintensitydata.json",
+    device_path="../data/devices_generated.json",
+    out_json_path="../data/timeseries.json",
     seed=2025
 ):
     rows = load_carbon(carbon_path)

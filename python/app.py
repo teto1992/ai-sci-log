@@ -85,7 +85,7 @@ else:
     st.success(
         f"Greenest slot: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** "
         f"(SCI ≈ {best['SCI']:.4f} g/prompt). "
-        f"If you wait **{wait_hours:.1f} h**, you'll save **{delta_g*1000:.1f} mg** CO₂e per prompt "
+        f"If you wait **{wait_hours:.1f} h**, you'll save **{delta_g*1000:.1f} g** CO₂e per prompt "
         f"(**{pct_save:.1f}%**)."
     )
    
@@ -94,13 +94,13 @@ else:
     # (Optional) Show the top-3 green slots to give alternatives
     st.subheader("Top-3 greenest slots in the selected range")
     topn = filtered_df.nsmallest(3, "SCI")[["ts_local", "SCI"]]
-    topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [g/prompt]"})
+    topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [kg/prompt]"})
     st.dataframe(topn.reset_index(drop=True))
 
     if not filtered_df.empty:
-        avg_sci = filtered_df["SCI"].mean()
-        min_sci = filtered_df["SCI"].min()
-        max_sci = filtered_df["SCI"].max()
+        avg_sci = filtered_df["SCI"].mean()*1000
+        min_sci = filtered_df["SCI"].min()*1000
+        max_sci = filtered_df["SCI"].max()*1000
 
     st.subheader("SCI stats in selected period")
     c1, c2, c3 = st.columns(3)
