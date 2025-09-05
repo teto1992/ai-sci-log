@@ -8,6 +8,8 @@ CARBON_INTENSITY_PATH = "data/carbonintensitydata.json"
 DEVICES_DETAILS_PATH = "data/devices_generated.json"  
 TIME_SERIES_DATA_PATH = "data/timeseries.json"  
 
+st.title("🌳 SCI-aware LLM Prompt Scheduler")
+
 start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
 # Dates from UI
