@@ -86,14 +86,12 @@ if delta_g <= 0:
 else:
     st.success(
         f"Greenest slot: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** "
-        f"(SCI ≈ {best['SCI']:.4f} g/prompt). "
+        f"(SCI ≈ {best['SCI']*1000:.4f} g/prompt). "
         f"If you wait **{wait_hours:.1f} h**, you'll save **{delta_g*1000:.1f} g** CO₂e per prompt "
         f"(**{pct_save:.1f}%**)."
     )
    
 
-
-    # (Optional) Show the top-3 green slots to give alternatives
     st.subheader("Top-3 greenest slots in the selected range")
     topn = filtered_df.nsmallest(3, "SCI")[["ts_local", "SCI"]]
     topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [kg/prompt]"})
