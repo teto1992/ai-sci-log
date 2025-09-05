@@ -81,12 +81,12 @@ if delta_g <= 0:
     st.info(
         f"You're already in the greenest slot of the selected range "
         f"({best['ts_local']:%Y-%m-%d %H:%M %Z}). "
-        f"SCI ≈ {best['SCI']:.4f} g/prompt."
+        f"SCI ≈ {best['SCI']:.4f*1000} g/prompt."
     )
 else:
     st.success(
         f"Greenest slot: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** "
-        f"(SCI ≈ {best['SCI']:.4f} g/prompt). "
+        f"(SCI ≈ {best['SCI']:.4f*1000} g/prompt). "
         f"If you wait **{wait_hours:.1f} h**, you'll save **{delta_g*1000:.1f} g** CO₂e per prompt "
         f"(**{pct_save:.1f}%**)."
     )
