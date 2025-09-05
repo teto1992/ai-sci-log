@@ -9,6 +9,19 @@ DEVICES_DETAILS_PATH = "data/devices_generated.json"
 TIME_SERIES_DATA_PATH = "data/timeseries.json"  
 
 st.title("🌳 SCI-aware: an LLM Prompt Scheduler")
+st.caption("Schedule your prompts when the grid is greenest to cut emissions without changing your results.")
+
+st.sidebar.header("About")
+st.sidebar.info(
+    "This tool analyzes local grid carbon intensity and simulated device usage to estimate grams CO₂e per prompt. "
+    "Lower SCI = greener execution. "
+    "The tool was developed during the [TRAIL Summer Workshop 2025](https://trail.ac/en/trail-summer-workshops/the-trail-summer-workshop-2024/submitted-projects-trail-summer-workshop-2025/) as [Project 13](https://trail.ac/en/trail-summer-workshops/the-trail-summer-workshop-2024/submitted-projects-trail-summer-workshop-2025/)"
+)
+
+st.markdown("**What’s SCI?** The *Software Carbon Intensity* estimates the grams of CO₂e per prompt, combining energy use and grid carbon intensity.")
+st.markdown("**How this works:** Pick your time window → we compute SCI over that period → we suggest the lowest-SCI slot to run your prompt.")
+
+st.markdown("Select a start and end date to explore greener execution windows for your prompt.")
 
 start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
@@ -59,9 +72,11 @@ df["date"] = df["ts_local"].dt.date
 mask = (df["date"] >= start_date) & (df["date"] <= end_date)
 filtered_df = df.loc[mask].sort_values("ts_local")
 
-st.write("Start date:", start_date)
-st.write("End date:", end_date)
-st.write(f"Rows in range: {len(filtered_df)}")
+# st.write("Start date:", start_date)
+# st.write("End date:", end_date)
+st.caption("Lower values on the chart mean lower estimated grams CO₂e per prompt (greener).")
+
+# st.write(f"Rows in range: {len(filtered_df)}")
 
 st.line_chart(filtered_df.set_index("ts_local")["SCI"], color="#9bc59d")
 
@@ -84,24 +99,26 @@ else:
 # Tell the user
 if delta_g <= 0:
     st.info(
-        f"You're already in the greenest slot of the selected range "
-        f"({best['ts_local']:%Y-%m-%d %H:%M %Z}). "
-        f"SCI ≈ {best['SCI']:.4f} g/prompt."
+        f"✅ You’re already in the greenest slot: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** · "
+        f"~**{best['SCI']*1000:.1f} g CO₂e/prompt**."
     )
 else:
     st.success(
-        f"Greenest slot: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** "
-        f"(SCI ≈ {best['SCI']*1000:.4f} g/prompt). "
-        f"If you wait **{wait_hours:.1f} h** for running your prompt, you'll save **{delta_g*1000:.1f} g** CO₂e w.r.t. running it now "
-        f"(**{pct_save:.1f}%**)."
+        f"🌿 Greener option: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** · "
+        f"~**{best['SCI']*1000:.1f} g CO₂e/prompt**.\n\n"
+        f"Waiting **{wait_hours:.1f} h** saves ~**{delta_g*1000:.1f} g CO₂e** (**{pct_save:.1f}%**) "
+        f"vs running at the start of your range."
     )
-   
 
-    st.subheader("Top-3 greenest slots in the selected range")
+    st.subheader("Top green slots")
+    st.caption("The three lowest-SCI execution times in your selected period.")
+
     topn = filtered_df.nsmallest(3, "SCI")[["ts_local", "SCI"]]
     topn["SCI"] = topn["SCI"].round(4) * 1000
     topn = topn.rename(columns={"ts_local": "time", "SCI": "SCI [g/prompt]"})
     st.dataframe(topn.reset_index(drop=True))
+
+    st.markdown("**Tip:** Use the greenest slots to queue batch prompts or heavy runs.")
 
     if not filtered_df.empty:
         avg_sci = filtered_df["SCI"].mean()*1000
@@ -109,6 +126,7 @@ else:
         max_sci = filtered_df["SCI"].max()*1000
 
     st.subheader("SCI stats in selected period")
+    st.caption("Summary of estimated grams CO₂e per prompt across the chosen window.")
     c1, c2, c3 = st.columns(3)
     c1.metric("Average SCI", f"{avg_sci:.4f}")
     c2.metric("Minimum SCI", f"{min_sci:.4f}")
