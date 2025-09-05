@@ -4,9 +4,9 @@ import code.simulate_sci_data as sci
 
 TZ = "Europe/London"
 #DATA_PATH = "./data/simulated_sci_forecasted.csv"  # adjust if needed
-CARBON_INTENSITY_PATH = "data/carbonintensitydata.json"  
-DEVICES_DETAILS_PATH = "data/devices_generated.json"  
-TIME_SERIES_DATA_PATH = "data/timeseries.json"  
+CARBON_INTENSITY_PATH = "~/python/data/carbonintensitydata.json"  
+DEVICES_DETAILS_PATH = "~/python/data/devices_generated.json"  
+TIME_SERIES_DATA_PATH = "~/python/data/timeseries.json"  
 
 start_date_default = pd.Timestamp(2026, 1, 1, tz=TZ).date()
 
