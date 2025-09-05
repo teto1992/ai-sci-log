@@ -87,7 +87,7 @@ else:
     st.success(
         f"Greenest slot: **{best['ts_local']:%Y-%m-%d %H:%M %Z}** "
         f"(SCI ≈ {best['SCI']*1000:.4f} g/prompt). "
-        f"If you wait **{wait_hours:.1f} h**, you'll save **{delta_g*1000:.1f} g** CO₂e per prompt "
+        f"If you wait **{wait_hours:.1f} h** for running your prompt, you'll save **{delta_g*1000:.1f} g** CO₂e w.r.t. running it now "
         f"(**{pct_save:.1f}%**)."
     )
    
