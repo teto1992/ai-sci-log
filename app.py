@@ -78,7 +78,7 @@ st.caption("Lower values on the chart mean lower estimated grams CO₂e per prom
 
 # st.write(f"Rows in range: {len(filtered_df)}")
 
-st.line_chart(filtered_df.set_index("ts_local")["SCI"], color="#9bc59d")
+st.line_chart(filtered_df.set_index("ts_local")["SCI"]*1000, color="#9bc59d")
 
 # ----- Recommendation: best time to prompt within the selected range -----
 if filtered_df.empty:
